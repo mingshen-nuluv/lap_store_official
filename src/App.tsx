@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
-import Home from "./page/Home"
+import Home from "./home/Home"
 import SignIn from "./page/signin"  
 import SignUp from './page/signup';
 import Profile from "./page/profile"
@@ -14,6 +14,7 @@ import Acer from "./page/acer"
 import LG from "./page/LG"
 import Dell from "./page/Dell"
 import Airm1 from './post/airm1'
+import Generics from './home/gen_home'
 import { Header } from './page/layout';
 
 
@@ -36,18 +37,13 @@ function App() {
                 <Route path = '/LG' element = {<LG/>}/>
                 <Route path = '/Dell' element = {<Dell/>}/>
                 <Route path = '/macbook-air-m1' element = {<Airm1/>}/>
+                <Route path = '/generics' element = {<Generics/>}/>
                 
               </Route>
             </Routes>
+
           </BrowserRouter>
-          {/* <h1>Minh</h1> */}
-          {/* <BrowserRouter>
-          <Routes>
-     
-              <Route path="/" exact component={Index} />
-              <Route path="/products/:id" component={Product} />
-     </Routes>
-          </BrowserRouter> */}
+          
           
 </>
   )
