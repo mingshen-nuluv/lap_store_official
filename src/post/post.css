@@ -118,9 +118,10 @@
 
 }
 .price_color_in_box{
-  margin: 7px 0 0 34px;
+  margin: 7px 0 0 21px;
   color: rgb(65, 65, 65);
   font-size: 13px;
+  width: 80px;
 }
 .banner_mac_air_m1{
 text-decoration: none;

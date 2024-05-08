@@ -1,7 +1,7 @@
 
 
 [{  
-
+    "href" : "/macbook-air-m1" ,
     "img" : "../image/lap2.jpg",
     "name" : "Laptop MSI Gaming Bravo 15 B7ED-010VN",
     "price" : "15.990.000₫",
@@ -9,7 +9,8 @@
 },
 
 {
-    "img" : "",
+    "href" : "/macbook-air-m1", 
+    "img" : "../image/lap3.jpg",
     "name" : "Laptop HP Pavilion 14-DV2073TU 7C0P2PA",
     "price" : "16.490.000₫",
     "old" : "20.990.000₫"
@@ -17,14 +18,14 @@
 ,
 
 {
-    "img" : "",
+    "img" : "../image/lap4.jpg",
     "name" : "Laptop HP Gaming Victus 15-FB1023AX 94F20PA",
     "price" : "17.590.000₫",
     "old" : "24.490.000₫"
 },
 
 {
-    "img" : "",
+    "img" : "./image/lap5.jpg",
     "name" : "Laptop LG Gram 2023 14Z90RS-G.AH54A5",
     "price" : "29.490.000₫",
     "old" : "38.990.000₫"
@@ -33,7 +34,7 @@
 ,
 
 {
-    "img" : "",
+    "img" : "./image/lap6.jpg",
     "name" : "Laptop Lenovo IdeaPad 3 14ITL6 82H701QWVN",
     "price" : "9.390.000₫",
     "old" : "11.290.000₫"
@@ -43,7 +44,7 @@
 ,
 
 {
-    "img" : "",
+    "img" : "./image/lap7.jpg",
     "name" : "Laptop MSI Gaming Bravo 15 B7ED-010VN",
     "price" : "15.990.000₫",
     "old" : "18.490.000₫"
@@ -53,7 +54,7 @@
 ,
 
 {
-    "img" : "",
+    "img" : "../image/lap8.jpg",
     "name" : "Laptop HP Pavilion 14-DV2073TU 7C0P2PA",
     "price" : "16.490.000₫",
     "old" : "20.990.000₫"
@@ -62,16 +63,7 @@
 ,
 
 {
-    "img" : "",
-    "name" : "Laptop HP Gaming Victus 15-FB1023AX 94F20PA",
-    "price" : "17.590.000₫",
-    "old" : "24.490.000₫"
-}
-
-,
-
-{
-    "img" : "",
+    "img" : "./image/lap9.jpg",
     "name" : "Laptop LG Gram 2023 14Z90RS-G.AH54A5",
     "price" : "29.490.000₫",
     "old" : "38.990.000₫"
@@ -79,35 +71,35 @@
 ,
 
 {
-    "img" : "",
+    "img" : "./image/lap10.jpg",
     "name" : "Laptop Lenovo IdeaPad 3 14ITL6 82H701QWVN",
     "price" : "9.390.000₫",
     "old" : "11.290.000₫"
 },
 
 {
-    "img" : "",
+    "img" : "./image/lap11.jpg",
     "name" : "Laptop MSI Gaming Bravo 15 B7ED-010VN",
     "price" : "15.990.000₫",
     "old" : "18.490.000₫"
 },
 
 {
-    "img" : "",
+    "img" : "./image/lap12.jpg",
     "name" : "Laptop HP Pavilion 14-DV2073TU 7C0P2PA",
     "price" : "16.490.000₫",
     "old" : "20.990.000₫"
 },
 
 {
-    "img" : "",
+    "img" : "./image/lap13.jpg",
     "name" : "Laptop HP Gaming Victus 15-FB1023AX 94F20PA",
     "price" : "17.590.000₫",
     "old" : "24.490.000₫"
 },
 
 {
-    "img" : "",
+    "img" : "./image/lap14.jpg",
     "name" : "Laptop LG Gram 2023 14Z90RS-G.AH54A5",
     "price" : "29.490.000₫",
     "old" : "38.990.000₫"
@@ -115,7 +107,15 @@
 ,
 
 {
-    "img" : "",
+    "img" : "./image/lap15.jpg",
+    "name" : "Laptop Lenovo IdeaPad 3 14ITL6 82H701QWVN",
+    "price" : "9.390.000₫",
+    "old" : "11.290.000₫"
+}
+,
+
+{
+    "img" : "./image/lap16.jpg",
     "name" : "Laptop Lenovo IdeaPad 3 14ITL6 82H701QWVN",
     "price" : "9.390.000₫",
     "old" : "11.290.000₫"

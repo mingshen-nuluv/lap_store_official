@@ -5,7 +5,7 @@ import Home from "./home/Home"
 import SignIn from "./page/signin"  
 import SignUp from './page/signup';
 import Profile from "./page/profile"
-import Macbook from "./page/macbook"
+import Macbook from "./macbook/macbook"
 import Asus from "./page/asus"
 import Msi from "./page/msi"
 import Lenovo from "./page/lenovo"
