@@ -6,11 +6,11 @@ import SignIn from "./page/signin"
 import SignUp from './page/signup';
 import Profile from "./page/profile"
 import Macbook from "./macbook/macbook"
-import Asus from "./page/asus"
+import Asus from "./asus/asus"
 import Msi from "./page/msi"
 import Lenovo from "./page/lenovo"
 import Hp from "./page/hp"
-import Acer from "./page/acer"
+import Acer from "./acer/acer"
 import LG from "./page/LG"
 import Dell from "./page/Dell"
 import Airm1 from './post/airm1'

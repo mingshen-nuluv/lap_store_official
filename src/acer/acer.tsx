@@ -1,42 +1,42 @@
 
+import React from 'react';
+import '../page/index.css';
 import backgr from '../image/pic.png'
-import bannermac1 from "../image/bannermac1.jpg"
-import bannermac2 from "../image/bannermac2.jpg"
-import Generics from "../macbook/gen_macbook"
+import banneraccer1 from "../image/banneracer1.jpg"
+import banneraccer2 from "../image/banneracer2.jpg"
+import Gen_acer from "./gen_acer"
 import Genbrand from "./genbrand"
-
 
 function Home() {
   return (
 <>
-
       <div className="banner">
-          <div className="banner_list">
-            <img className="banner1" src={bannermac1} alt=""></img>
-            <img className="banner1" src={bannermac2} alt=""></img>
-          </div>
+        <div className="banner_list">
+            <img className="banner1" src={banneraccer1} alt=""></img>
+            <img className="banner1" src={banneraccer2} alt=""></img>
+        </div>
       </div>
-      <div>     
+      <div>             
+        
         <img className ="backgroundimage" src={backgr} alt="pic"/>
-      </div>
+        </div>
         <div className="shop">
           <div className = 'shop_list'>
             <div className='product_noform'>
-            <Genbrand/>
+                    <Genbrand/>
             </div>
             <div className="product_form">
               <div className='product_form_up'>
-                  <p className="shop_list_head_text">MacBook</p>
+                  <p className="shop_list_head_text">Sản Phẩm Nổi Bật</p>
               </div>
               <div className='product_form_down'>
-                  <Generics/>
+                  <Gen_acer/>
               </div>
-            </div>
+          </div>
           </div>
         </div>
 </>
   )
-
 }
  
 export default Home;

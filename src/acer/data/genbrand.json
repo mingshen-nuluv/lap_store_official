@@ -1,0 +1,44 @@
+[{
+    "href" : "/macbook" , 
+    "img" : "../image/brand1.jpg"
+}
+,
+{
+    "href" : "/asus" , 
+    "img" : "../image/brand2.jpg"
+}
+,
+{
+    "href" : "/msi" , 
+    "img" : "../image/brand3.jpg"
+}
+,
+{
+    "href" : "/lenovo" , 
+    "img" : "../image/brand4.jpg"
+}
+,
+{
+    "href" : "/hp" , 
+    "img" : "../image/brand5.jpg"
+}
+,
+{
+    "href" : "/acer" , 
+    "img" : "../image/brand6.jpg"
+}
+,
+{
+    "href" : "/LG" , 
+    "img" : "../image/brand7.jpg"
+}
+,
+{
+    "href" : "/Dell" , 
+    "img" : "../image/brand8.jpg"
+}
+
+
+
+
+]
