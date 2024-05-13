@@ -1,38 +1,38 @@
 
 
-[{  
+[{  "img2" : "../image/asset1.png" ,
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap7.jpg",
-    "name" : "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam ",
-    "price" : "18.590.000₫",
+    "img" : "../image/mac1.jpg",
+    "name" : "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam",
+    "price" : "18.190.000₫",
     "old" : "22.990.000₫"
 },
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap8.jpg",
+    "img" : "../image/mac2.jpg",
     "name" : "Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam",
-    "price" : "24.590.000₫",
+    "price" : "24.390.000₫",
     "old" : "32.990.000₫"
 },
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap11.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
+    "img" : "../image/mac3.jpg",
+    "name" : "Macbook Air M3 13 inch 2024 8GB - 256GB | Chính hãng Apple Việt Nam",
+    "price" : "27.390.000",
+    "old" : "27.390.000₫"
 }
 ,
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap14.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
+    "img" : "../image/mac4.jpg",
+    "name" : "Apple Macbook Air M2 2022 16GB 256GB I Chính hãng Apple Việt Nam",
+    "price" : "29.790.000₫",
+    "old" : "39.990.000₫"
 }
 ,
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap15.jpg",
+    "img" : "../image/mac5.jpg",
     "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
     "price" : "49.290.000₫",
     "old" : "49.990.000₫"
@@ -40,102 +40,56 @@
 
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap7.jpg",
-    "name" : "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam ",
-    "price" : "18.590.000₫",
-    "old" : "22.990.000₫"
-},
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap8.jpg",
-    "name" : "Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam",
-    "price" : "24.590.000₫",
+    "img" : "../image/mac6.jpg",
+    "name" : "Macbook Air M3 15 inch 2024 8GB - 256GB | Chính hãng Apple Việt Nam",
+    "price" : "31.990.000₫",
     "old" : "32.990.000₫"
 },
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap11.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap14.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap15.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
+    "img" : "../image/mac7.jpg",
+    "name" : "Apple Macbook Air M2 2022 16GB 512GB I Chính hãng Apple Việt Nam",
+    "price" : "34.590.000₫",
+    "old" : "45.990.000₫"
 },
+{  
+    "href" : "/macbook-air-m1" ,
+    "img" : "../image/mac8.jpg",
+    "name" : "Macbook Pro 14 M3 8GB - 512GB | Chính hãng Apple Việt Nam",
+    "price" : "39.990.000₫",
+    "old" : "49.990.000₫"
+}
 
+,
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap7.jpg",
-    "name" : "Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam ",
-    "price" : "18.590.000₫",
-    "old" : "22.990.000₫"
+    "img" : "../image/mac9.jpg",
+    "name" : "Mac mini M2 2023 (8 CPU - 10 GPU - 8GB - 256GB) | Chính hãng Apple Việt Nam",
+    "price" : "14.990.000₫",
+    "old" : "15.990.000₫"
+}
+,
+{  
+    "href" : "/macbook-air-m1" ,
+    "img" : "../image/mac10.jpg",
+    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
+    "price" : "49.290.000₫",
+    "old" : "49.990.000₫"
+}
+,
+{  
+    "href" : "/macbook-air-m1" ,
+    "img" : "../image/mac11.jpg",
+    "name" : "Mac Studio 2022 M1 Max 10 CPU | Chính hãng Apple Việt Nam",
+    "price" : "37.590.000₫",
+    "old" : "55.990.000₫"
 },
 {  
     "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap8.jpg",
-    "name" : "Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam",
-    "price" : "24.590.000₫",
-    "old" : "32.990.000₫"
-},
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap11.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap14.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap15.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap3.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap9.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
-}
-,
-{  
-    "href" : "/macbook-air-m1" ,
-    "img" : "../image/lap11.jpg",
-    "name" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam",
-    "price" : "49.290.000₫",
-    "old" : "49.990.000₫"
+    "img" : "../image/mac12.jpg",
+    "name" : "Mac mini M2 Pro 2023 (10 CPU - 16 GPU - 16GB - 512GB) | Chính hãng Apple Việt Nam",
+    "price" : "31.290.000₫",
+    "old" : "35.990.000₫"
 }
 
 

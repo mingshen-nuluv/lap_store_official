@@ -78,7 +78,7 @@ export function Header(){
       </div>
       <div className="body-contaner">
         <div className="body-box">
-          <a className='help_contact' href="https://www.facebook.com/nhatminh.bigbro01/">
+          <a className='help_contact' href="https://www.facebook.com/nhatminh.bigbro01/" target="_ blank" >
             <img className="hc_icon" src={hc_icon} alt="" />
           </a>
           <div className="navbar">

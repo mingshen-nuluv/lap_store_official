@@ -160,17 +160,16 @@
 }
 .help_contact{
   position: fixed;
-  bottom: 25px;
-  right: -130px;
+  bottom: 40px;
+  right: -150px;
 }
 .hc_icon{
-  width: 30%;
+  border-radius: 8px;
+  width: 20%;
   animation: pulse-blue 2s infinite;
   background-color: #028fe3;
 }
-.hc_icon{
-  
-}
+
 
 .body-contaner{
   height: 45px;

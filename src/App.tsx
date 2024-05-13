@@ -7,13 +7,13 @@ import SignUp from './page/signup';
 import Profile from "./page/profile"
 import Macbook from "./macbook/macbook"
 import Asus from "./asus/asus"
-import Msi from "./page/msi"
-import Lenovo from "./page/lenovo"
-import Hp from "./page/hp"
+import Msi from "./msi/msi"
+import Lenovo from "./lenovo/lenovo"
+import Hp from "./hp/hp"
 import Acer from "./acer/acer"
-import LG from "./page/LG"
-import Dell from "./page/Dell"
-import Airm1 from './post/airm1'
+import LG from "./LG/LG"
+import Dell from "./dell/dell"
+import Airm1 from './Detail/mac1'
 import Generics from './home/gen_home'
 import { Header } from './page/layout';
 
@@ -35,8 +35,10 @@ function App() {
                 <Route path = '/hp' element = {<Hp/>}/>
                 <Route path = '/acer' element = {<Acer/>}/>
                 <Route path = '/LG' element = {<LG/>}/>
-                <Route path = '/Dell' element = {<Dell/>}/>
-                <Route path = '/macbook-air-m1' element = {<Airm1/>}/>
+                <Route path = '/dell' element = {<Dell/>}/>
+                
+                {/* post */}
+                <Route path = '/macbook-air-m1' element = {<Airm1/>}/> 
                 <Route path = '/generics' element = {<Generics/>}/>
                 
               </Route>

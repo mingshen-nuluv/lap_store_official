@@ -1,11 +1,10 @@
-import data from "./data/macbook.json"
+import data from "./data/dell.json"
 import '../page/index.css'
-function gen_home(){
+function gen_dell(){
     return(
         <>
         {data.map((item) => (
           <div className="product_list1">
-                <img src={item.img2} alt="" />
                 <a href={item.href}>               
                 <img className="product_img_1" src={item.img}  alt=""></img>
                   </a>
@@ -22,5 +21,5 @@ function gen_home(){
         
     )
 }
-export default gen_home;
+export default gen_dell;
 
