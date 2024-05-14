@@ -1,5 +1,3 @@
-
-import React from 'react';
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import Home from "./home/Home"
 import SignIn from "./page/signin"  
@@ -14,6 +12,8 @@ import Acer from "./acer/acer"
 import LG from "./LG/LG"
 import Dell from "./dell/dell"
 import Airm1 from './Detail/mac01/mac1'
+import Asus1 from './Detail/Asus/asus1'
+
 import Generics from './home/gen_home'
 import { Header } from './page/layout';
 
@@ -37,8 +37,8 @@ function App() {
                 <Route path = '/LG' element = {<LG/>}/>
                 <Route path = '/dell' element = {<Dell/>}/>
                 
-                {/* post */}
                 <Route path = '/macbook-air-m1' element = {<Airm1/>}/> 
+                <Route path = '/Laptop ASUS TUF Gaming F15 FX506HF-HN078W' element = {<Asus1/>}/> 
                 <Route path = '/generics' element = {<Generics/>}/>
                 
               </Route>

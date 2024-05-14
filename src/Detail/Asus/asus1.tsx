@@ -1,3 +1,4 @@
+
 import '../post.css'
 import star_icon from "/home/minh/Typescript/author/src/image/star_icon.jpg"
 import golden_type_lap from "/home/minh/Typescript/author/src/image/golden_type.jpg"
@@ -18,7 +19,7 @@ function Home() {
 <>
     <div className='header_detail'>
           <div className='headder_deltail_left'>
-          <p className='header_title'>Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam</p>
+          <p className='header_title'>Laptop ASUS TUF Gaming F15 FX506HF-HN078W</p>
             </div>
           <div className='headder_deltail_right'>
             <img className='star' src={star_icon} alt="" />
@@ -32,11 +33,15 @@ function Home() {
     <div className='under_header_mac_air_m1'>
       <div className='video_box'>
         <iframe className="video_thumbnail_macbook_air_m1"
-              src="https://www.youtube.com/embed/XIWANvgXtvI?rel=0&amp;
-              autoplay=1&amp;mute=1" title="YouTube video player" allow="accelerometer;
-              autoplay; clipboard-write;
-              encrypted-media;  gyroscope;
-              picture-in-picture" >
+        src="https://www.youtube.com/embed/MY4Um2mFk8E" 
+        title="Asus TUF Gaming F15 Laptop Overview (2021 Model)" 
+         allow="accelerometer; 
+         autoplay; 
+         clipboard-write; 
+         encrypted-media; 
+         gyroscope; picture-in-picture; 
+         web-share" >
+
         </iframe>
         
         <div className="infor_product"> 

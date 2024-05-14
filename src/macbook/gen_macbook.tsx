@@ -1,4 +1,4 @@
-import data from "./data/macbook.json"
+import data from "./data/genmacbook.json"
 import '../page/index.css'
 function gen_home(){
     return(
