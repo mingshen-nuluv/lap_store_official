@@ -13,7 +13,7 @@ import Hp from "./hp/hp"
 import Acer from "./acer/acer"
 import LG from "./LG/LG"
 import Dell from "./dell/dell"
-import Airm1 from './Detail/mac1'
+import Airm1 from './Detail/mac01/mac1'
 import Generics from './home/gen_home'
 import { Header } from './page/layout';
 

@@ -5,7 +5,6 @@ function gen_home(){
         <>
         {data.map((item) => (
           <div className="product_list1">
-                <img src={item.img2} alt="" />
                 <a href={item.href}>               
                 <img className="product_img_1" src={item.img}  alt=""></img>
                   </a>

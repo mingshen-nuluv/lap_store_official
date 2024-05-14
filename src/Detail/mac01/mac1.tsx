@@ -1,34 +1,35 @@
 
 import React from 'react';
-import './post.css'
-import star_icon from "../image/star_icon.jpg"
-import golden_type_lap from "../image/golden_type.jpg"
-import silver_type_lap from "../image/silver_type.jpg"
-import gray_type_lap from "../image/gray_type.jpg"
-import banner_mac_air_m1 from "../image/tragop_mac_air_m1.jpg"
-import giohang from "../image/gio_hang.jpg"
-import tradecoin_icon from "../image/tradecọin_icon2icon2.png"
-import bw_prod1 from "../image/Hub_Ugreen_USB-C.jpg"
-import bw_prod2 from "../image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
-import bw_prod3 from "../image/Củ_sạc_Anker_PowerPort.jpg"
-import bw_prod4 from "../image/Cáp_USB-C to_USB-C.jpg"
+import '../post.css'
+import star_icon from "/home/minh/Typescript/author/src/image/star_icon.jpg"
+import golden_type_lap from "/home/minh/Typescript/author/src/image/golden_type.jpg"
+import silver_type_lap from "/home/minh/Typescript/author/src/image/silver_type.jpg"
+import gray_type_lap from "/home/minh/Typescript/author/src/image/gray_type.jpg"
+import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
+import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
+import tradecoin_icon from "/home/minh/Typescript/author/src/image/tradecọin_icon2icon2.png"
+import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
+import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
+import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
+import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
+
 
 
 function Home() {
   return (
 <>
     <div className='header_detail'>
-        <div className='headder_deltail_left'>
-        <p className='header_title'>Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam</p>
+          <div className='headder_deltail_left'>
+          <p className='header_title'>Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam</p>
+            </div>
+          <div className='headder_deltail_right'>
+            <img className='star' src={star_icon} alt="" />
+            <img className='star' src={star_icon} alt="" />
+            <img className='star' src={star_icon} alt="" />
+            <img className='star' src={star_icon} alt="" />
+            <img className='star' src={star_icon} alt="" />
+            <p className='text_head_evaluate'>38 đánh giá </p>
           </div>
-        <div className='headder_deltail_right'>
-          <img className='star' src={star_icon} alt="" />
-          <img className='star' src={star_icon} alt="" />
-          <img className='star' src={star_icon} alt="" />
-          <img className='star' src={star_icon} alt="" />
-          <img className='star' src={star_icon} alt="" />
-          <p className='text_head_evaluate'>38 đánh giá </p>
-        </div>
     </div>
     <div className='under_header_mac_air_m1'>
       <div className='video_box'>
