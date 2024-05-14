@@ -1,5 +1,3 @@
-
-import React from 'react';
 import '../page/index.css';
 import backgr from '../image/pic.png'
 import banneraccer1 from "../image/banneracer1.jpg"

@@ -12,6 +12,7 @@ import Acer from "./acer/acer"
 import LG from "./LG/LG"
 import Dell from "./dell/dell"
 import Airm1 from './Detail/mac01/mac1'
+import Airm2 from './Detail/mac01/mac2'
 import Asus1 from './Detail/Asus/asus1'
 
 import Generics from './home/gen_home'
@@ -38,6 +39,8 @@ function App() {
                 <Route path = '/dell' element = {<Dell/>}/>
                 
                 <Route path = '/macbook-air-m1' element = {<Airm1/>}/> 
+                <Route path = '/macbook-air-m2' element = {<Airm2/>}/> 
+
                 <Route path = '/Laptop ASUS TUF Gaming F15 FX506HF-HN078W' element = {<Asus1/>}/> 
                 <Route path = '/generics' element = {<Generics/>}/>
                 
