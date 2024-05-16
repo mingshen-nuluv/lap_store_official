@@ -1,10 +1,21 @@
 import data from "./data/lenovo.json"
 import '../page/index.css'
+import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
+
 function gen_dell(){
     return(
         <>
         {data.map((item) => (
           <div className="product_list1">
+            <div className="flex_box">
+                    <div>
+                      <img className = "asset_pic" src={sale_img} alt=""/>
+                      <p className="text_in_asset">{item.text_in_asset}</p>
+                    </div>
+                      <div className="install_box">
+                        <p className="text_in_install">Trả góp 0%</p>
+                      </div>
+                  </div>
                 <a href={item.href}>               
                 <img className="product_img_1" src={item.img}  alt=""></img>
                   </a>

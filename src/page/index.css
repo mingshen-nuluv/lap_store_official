@@ -591,19 +591,38 @@ width: 900px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .asset_pic{
-  width: 92px;
+  width: 83px;
   height: 31px;
-  margin: 6px 94px 3px -19px;
+  margin: 6px 41px 3px -19px;
   
 
 }
 .text_in_asset{
-  margin: -26px 100px 0px -3px;
+  margin: -26px 100px 0px -7px;
     font-size: 14px;
     color: white;
     margin-top: -33px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    width: 65%;
+    
+}
+.flex_box{
+  display: flex;
+}
+
+.install_box{
+  margin: auto;
+  border: solid 1px #0c53b7;
+  border-radius: 8px;
+  font-size: 10px;
+  color: #0c53b7;
+  width: 70px;
+  height: 18px;
+}
+.text_in_install{
+  margin-top: 2px;
+  font-weight: 600;
 }
 
 .product_img_1{

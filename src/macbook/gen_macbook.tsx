@@ -7,8 +7,15 @@ function gen_home(){
         <>
         {data.map((item) => (
           <div className="product_list1">
-            <img className = "asset_pic" src={sale_img} alt=""/>
-                <p className="text_in_asset">{item.text_in_asset}</p>
+            <div className="flex_box">
+                    <div>
+                      <img className = "asset_pic" src={sale_img} alt=""/>
+                      <p className="text_in_asset">{item.text_in_asset}</p>
+                    </div>
+                      <div className="install_box">
+                        <p className="text_in_install">Trả góp 0%</p>
+                      </div>
+                  </div>
                 <a href={item.href}>               
                 <img className="product_img_1" src={item.img}  alt=""></img>
                   </a>
