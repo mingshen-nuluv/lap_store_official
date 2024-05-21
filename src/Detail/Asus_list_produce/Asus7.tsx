@@ -1,5 +1,4 @@
-
-import '../post.css'
+import '../Detail.css'
 import star_icon from "/home/minh/Typescript/author/src/image/star_icon.jpg"
 import golden_type_lap from "/home/minh/Typescript/author/src/image/golden_type.jpg"
 import silver_type_lap from "/home/minh/Typescript/author/src/image/silver_type.jpg"
@@ -13,13 +12,12 @@ import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_Po
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
 
 
-
 function Home() {
   return (
 <>
     <div className='header_detail'>
           <div className='headder_deltail_left'>
-          <p className='header_title'>Laptop ASUS TUF Gaming F15 FX506HF-HN078W</p>
+          <p className='header_title'>Laptop ASUS TUF Gaming A15 FA507NU-LP131W</p>
             </div>
           <div className='headder_deltail_right'>
             <img className='star' src={star_icon} alt="" />
@@ -30,19 +28,12 @@ function Home() {
             <p className='text_head_evaluate'>38 đánh giá </p>
           </div>
     </div>
+
     <div className='under_header_mac_air_m1'>
       <div className='video_box'>
         <iframe className="video_thumbnail_macbook_air_m1"
-        src="https://www.youtube.com/embed/MY4Um2mFk8E" 
-        title="Asus TUF Gaming F15 Laptop Overview (2021 Model)" 
-         allow="accelerometer; 
-         autoplay; 
-         clipboard-write; 
-         encrypted-media; 
-         gyroscope; picture-in-picture; 
-         web-share" >
-
-        </iframe>
+                src="https://www.youtube.com/embed/k73BrVC27Ew" title="ASUS TUF A15 Gaming Laptop Review | 2023"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+        
         
         <div className="infor_product"> 
           <div className="info_box">
@@ -173,12 +164,12 @@ function Home() {
               <div className="under_header_option_box">
                 <img className='tc_icon' src={tradecoin_icon} alt="" />
                 <div   className="under_header_option_left" >
-                  <p className='uhol_price'>16.690.000 đ</p>
+                  <p className='uhol_price'>16.190.000₫</p>
                   <p className='uhol_text'>Khi thu cũ lên đời</p>
                 </div>
                 <div  className="under_header_option_right">
                   <p className="uhor_price">18.690.000 đ</p>
-                  <p className='uhor_text'>Khi thu cũ lên đời</p>
+                  <p className='uhor_text'>22.990.000₫</p>
               
               </div>
               </div>

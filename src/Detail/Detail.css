@@ -277,6 +277,7 @@ text-decoration: none;
   font-size: 12px;
   font-family:'Gill Sans', 
   'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-line: line-through;
 
 }
 .under_header_option_right{

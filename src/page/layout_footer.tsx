@@ -1,4 +1,3 @@
-import React from "react";
 import '../page/index.css';
 import { Outlet } from "react-router-dom";
 import logo_store from "../image/lap_store_fix-removebg-preview.png"
@@ -30,8 +29,9 @@ import careS_icon from "../image/careS_icon.jpg"
 import Schannel_icon from "../image/Schannel_icon.jpg"
 import forum_icon from "../image/forum_icon.jpg"
 import hc_icon from "../image/facebook_icon_position.png"
+import star_icon from "../image/star_icon.jpg"
 
-export function Header(){
+export function Footer(){
     return(
         <>
 
@@ -105,6 +105,94 @@ export function Header(){
       </div>
        
       <Outlet/>
+      <div className="evaluate">
+        <div className="evaluate_box1">
+          <div className="head_text_box1">Đánh giá & nhận xét Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam</div>
+          <div className="under_head_text_evaluate">
+            <div className="vote_evaluate">
+            <p className="text_on_vote_evaluate">4.8/5</p>
+              <div className="list_star">
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <img className="img_icon_star" src={star_icon} alt="" />
+              </div>
+              <p className="text_under_vote_evaluate">40 đánh giá</p>
+            </div>
+            <div className="detail_evaluate">
+              <div className="progress_1">
+                <p className="text_progress">5</p>
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <progress max="100" className="progress" value="93" ></progress>
+                <p className="text_end_progress">93 đánh giá</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">4</p>
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <progress max="100" className="progress" value="5" ></progress>
+                <p className="text_end_progress">5 đánh giá</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">3</p>
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <progress max="100" className="progress" value="0" ></progress>
+                <p className="text_end_progress">0 đánh giá</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">2</p>
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <progress max="40" className="progress" value="0" ></progress>
+                <p className="text_end_progress">0 đánh giá</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">1</p>
+                <img className="img_icon_star" src={star_icon} alt="" />
+                <progress max="40" className="progress" value="0" ></progress>
+                <p className="text_end_progress">0 đánh giá</p>
+              </div>
+            </div>
+          </div>
+          <div className="exper">
+            <p className="head_text">Đánh giá theo trải nghiệm</p>
+            <div className="exper_flex_box">
+              <div className="exper_under_left">
+                  <p className="under_head_text">Thời lượng pin</p>
+                  <p className="under_head_text">Hiệu năng</p>
+                  <p className="under_head_text">Chất lượng hiển thị của màn hình</p>
+              </div>
+              <div className="nonflex_box">
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <img className="img_icon_star" src={star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
       <div className='descriptive_para'>
             <div className='para_left'>
                 <div className='para_box_left'>
@@ -142,7 +230,7 @@ export function Header(){
             <div className='para_right'>
                 <div className='para_box_right'>
                   <img className='icon_news' src = {icon_news} alt="" />
-                  <p className='text_para_box_head'> Tin tức về sản phẩm</p>
+                  <p className='text_para_box_head'> Tin tức chung</p>
                 </div>
                 <div className='list_para_box_right'>
                       <img className='list_news1' src={list_news1} alt="" />

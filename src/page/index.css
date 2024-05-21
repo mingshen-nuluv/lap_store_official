@@ -215,7 +215,7 @@
   font-family:'Times New Roman', Times, serif;
 }
 .under-body{
-  height: 800px;
+  height: auto;
 }
 .under-body-contaner-left{
   height: 500px;
@@ -912,4 +912,133 @@ display: flex;
   line-height: 0.8;
   overflow: hidden;
   text-decoration: none;
+}
+.evaluate{
+  display: flex;
+}
+.evaluate_box1{
+  margin: 20px 0 0 18%;
+  width: 45%;
+  height: 500px;
+  background-color: #6d6d6e;
+}
+.evaluate_box1{
+  
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #afafaf,
+  0px 0px 1px #afafaf,
+  0px 0px 1px #afafaf,
+  0px 0px 1px #afafaf;
+
+}
+.head_text_box1{
+  padding-top: 10px;
+  margin: 0px 0 0 4%;
+  font-weight: 600;
+  font-size: 19px;
+  color:rgb(58, 58, 58)
+}
+.under_head_text_evaluate{
+  display: flex;
+  border-bottom: solid 1px  rgb(185, 185, 185) ;
+  width: 90%;
+  margin : 0 4% ;
+}
+.vote_evaluate{
+  margin: 30px 0 0 0;
+  width: 40%;
+  border-right: solid 1px rgb(185, 185, 185) ;
+  height: 150px;
+}
+.text_on_vote_evaluate{
+  color: #494949;
+  font-weight: 700;
+  font-size: 30px;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin:  20px 0 0 0;
+}
+.text_under_vote_evaluate{
+  text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: rgb(65, 65, 65);
+
+}
+.list_star{
+margin:  5px 0 0 30%;
+}
+.img_icon_star{
+margin: 0 10px 0 0px;
+  text-align: center;
+  align-items: center;
+  width: 17px;
+  height: 15px;
+
+
+}
+.detail_evaluate{
+margin: 30px 0  0 5%;
+  height: 170px;
+}
+.text_exper_head{
+  margin: 10px 0 8px 7%;
+  height: 40px;
+  font-size: 18px;
+  color: #363636;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.progress{
+  width: 230px;
+}
+.progress_1{
+  margin-bottom: 10px;
+  display : flex;
+}
+.text_progress{
+  margin:0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text_end_progress{
+  font-size: 13px;
+
+  margin: 0 0 0 0;
+  padding-left: 10px ;
+  width: 85px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.exper{
+  margin: 10px 0 0 4%;
+}
+.head_text{
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #494949;
+}
+.exper_flex_box{
+  display: flex;
+  width: 90%;
+  border-bottom: solid 1px  rgb(185, 185, 185) ;
+}
+.under_head_text{
+  font-size: 15px;
+  margin: 10px 0 0 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nonflex_box{
+  margin: 0 0 0 35%;
+  height: 110px;
+}
+.exper_under_right{
+  display: flex;
+  margin: 10px 0 0 0;
+
+}
+.text_in_under_right{
+  margin: 0;
+  font-size: 14px;
 }
