@@ -68,7 +68,7 @@ export function Header(){
         </div>  
         <div className="search">
           <div className="search-box">
-            <input className="search-box-input" type="text"  placeholder="Tìm kiếm sản phẩm..." />
+            <input className="search-box-input" type="text"  placeholder="Bạn cần tìm gì?" />
             <input className="search-box-button" type="button"  defaultValue="Tìm kiếm"  />
           </div>
         </div>
