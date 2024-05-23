@@ -191,6 +191,65 @@ export function Footer(){
             </div>
           </div>
         </div>
+        <div className='evaluate_box2'>
+          <div className='head_text_box2'>Thông số kỹ thuật</div>
+          <div className='under_head_text_box2'>
+            <div className='uhtb_row1'>
+              <div className='uhtb_row1_left'>Loại card đồ họa
+              </div>
+              <div className='uhtb_row1_right'>GPU 7 nhân, 16 nhân
+              </div>
+            </div>
+            <div className='uhtb_row2'>
+            <div className='uhtb_row1_left'>Dung lượng RAM
+              </div>
+              <div className='uhtb_row1_right'>8GB
+              </div>
+            </div>
+            <div className='uhtb_row3'>
+            <div className='uhtb_row1_left'>Loại RAM
+              </div>
+              <div className='uhtb_row1_right'>LPĐR4
+              </div>
+            </div>
+            <div className='uhtb_row4'>
+            <div className='uhtb_row1_left'>Ổ cứng
+              </div>
+              <div className='uhtb_row1_right'>256GB SSD
+              </div>
+            </div>
+            <div className='uhtb_row5'>
+            <div className='uhtb_row1_left'>Kích thước màn hình
+              </div>
+              <div className='uhtb_row1_right'>13.3 inches
+              </div>
+            </div>
+            <div className='uhtb_row6'>
+            <div className='uhtb_row1_left'>Công nghệ màm hình
+              </div>
+              <div className='uhtb_row1_right'>Độ sáng 400 nits Hỗ trợ dải màu P3 True-Tone
+              </div>
+            </div>
+            <div className='uhtb_row7'>
+            <div className='uhtb_row1_left'>Pin 
+              </div>
+              <div className='uhtb_row1_right'>49.9-watt lithium-polymer
+              </div>
+            </div>
+            <div className='uhtb_row8'>
+            <div className='uhtb_row1_left'>Cổng giao tiếp
+              </div>  
+              <div className='uhtb_row1_right'>2 cổng Thunderbolt / USB 4
+              </div>
+            </div>
+            <div className='uhtb_row9'>
+            <div className='uhtb_row1_left'>Tính năng khác
+              </div>  
+              <div className='uhtb_row1_right'>Cảm biến vân tay Touch ID, 720p FaceTime HD camera
+              </div>
+            </div>
+          </div>
+        </div>
         
       </div>
       <div className='descriptive_para'>

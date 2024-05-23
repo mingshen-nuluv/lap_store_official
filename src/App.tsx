@@ -1,4 +1,5 @@
 import {Route, Routes, BrowserRouter } from 'react-router-dom';
+
 import Home from "./home/Home"
 import SignIn from "./page/signin"  
 import SignUp from './page/signup';
@@ -11,6 +12,7 @@ import Hp from "./hp/hp"
 import Acer from "./acer/acer"
 import LG from "./LG/LG"
 import Dell from "./dell/dell"
+
 import Airm1 from './Detail/mac_list_produce/mac1'
 import Airm2 from './Detail/mac_list_produce/mac2'
 import Airm3 from './Detail/mac_list_produce/mac3'
