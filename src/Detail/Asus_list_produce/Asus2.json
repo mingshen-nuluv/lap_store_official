@@ -1,0 +1,48 @@
+[
+    {
+        "headtt" : "Laptop ASUS VivoBook S 14 FLIP TP3402VA-LZ025W"
+        ,"star_icon": "./image/star_icon.jpg"
+        ,"thevaluate" : "38 đánh giá"
+    
+
+        ,"version_1":"R5-7530U 16GB 512GB"
+        ,"ver_1_price": "15.490.000 đ"
+        ,"version_2": "i3-1315U 8GB 255GB"
+        ,"ver_2_price": "40.990.000 đ"
+        ,"version_3": "32GB - 512GB"
+        ,"ver_3_price": "40.990.000 đ"
+
+        ,"type_lap_1": "/image/silver_type.jpg"
+        ,"text_color_in_box_1": "Bạc"
+        ,"price_lap_type_1": "11.490.000 đ"
+        ,"type_lap_2": "/image/silver_type.jpg"
+        ,"text_color_in_box_2": "Bạc"
+        ,"price_lap_type_2": "19.090.000 đ"
+        ,"type_lap_3": "/image/gray_type.jpg"
+        ,"text_color_in_box_3": "Xám"
+        ,"price_lap_type_3": "18.690.000 đ"
+
+        ,"tradecoin_icon": "image/tradecọin_icon2icon2.png"
+        ,"uhol_price_1": "8.490.000₫"
+        ,"uhol_price_2": "11.490.000 đ"
+
+        ,"evaluate_head_text": "Đánh giá & nhận xét Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam"
+        ,"vote_evaluate": "4.8/5"
+        ,"number_vote": "98 đánh giá"
+        ,"vote_5": "93 đánh giá"
+        ,"vote_4": "5 đánh giá"
+        ,"vote_3": "0 đánh giá"
+        ,"vote_2": "0 đánh giá"
+        ,"vote_1": "0 đánh giá"
+    
+        ,"card_type": "Intel UHD Graphics"
+        ,"capacity": "8GB"
+        ,"RAM_type": "DDR4 Onboard"
+        ,"hard_drive": "SSD 256GB M.2 NVMe PCIe 4.0"
+        ,"inches": "14 inches"
+        ,"screen_tech": "Độ sáng tối đa 300nits Độ phủ màu 45% NTSC Màn hình chống chói"
+        ,"battery": "50WHrs, 3S1P, Li-ion 3 cell"
+        ,"port": "1x USB 2.0 Type-A  1x USB 3.2 Gen 2 Type-C "
+        ,"other_function": "Ổ cứng SSD, Wi-Fi 6"
+    }
+]

@@ -62,21 +62,56 @@
   display:block;
   margin: 0 20px 0 0 ;
   width: 136px;
-  height: 50px;
+  height: auto;
   background-color: rgb(255, 255, 255);
   border: #444 solid 1px;
   border-radius: 5px;
 }
-.text_in_box{
+.version_1{
   
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 5px 0 0 20px ;
+  margin: 5px 0 0 0 ;
   font-size: 15px;
   font-weight: 600;
-  color: rgb(63, 63, 63);;
+  color: rgb(63, 63, 63);
+  text-align: center;
 }
-.price_in_box{
-  margin: 7px 0 0 34px;
+.version_2{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px 0 0 0 ;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(63, 63, 63);
+  text-align: center;
+
+}
+.version_3{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px 0 0 0 ;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(63, 63, 63);
+  text-align: center;
+
+}
+
+.ver_1_price{
+  margin: 7px 0;
+  text-align: center;
+  color: rgb(65, 65, 65);
+  font-size: 14px;
+}
+.ver_2_price{
+  margin: 7px 0;
+  text-align: center;
+  color: rgb(65, 65, 65);
+  font-size: 14px;
+}
+.ver_3_price{
+  margin: 7px 0;
+  text-align: center;
   color: rgb(65, 65, 65);
   font-size: 14px;
 }
@@ -117,6 +152,7 @@
   color: rgb(63, 63, 63);
 
 }
+
 .price_color_in_box{
   margin: 7px 0 0 21px;
   color: rgb(65, 65, 65);
@@ -277,7 +313,7 @@ text-decoration: none;
   font-size: 12px;
   font-family:'Gill Sans', 
   'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through; */
 
 }
 .under_header_option_right{
@@ -469,12 +505,14 @@ font-family: 'Franklin Gothic Medium',
   cursor: pointer;
 }
 .location_contact{
+  width: 100%;
   color: #0864c1;
   margin: 2px  0 0 10px;
   font-size: 13px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
   cursor: pointer;
+  /* line-height: 10px; */
 }
 .buy_with{
   display: flex;
@@ -550,3 +588,4 @@ font-family: 'Franklin Gothic Medium',
   border: 0;
 
 }
+

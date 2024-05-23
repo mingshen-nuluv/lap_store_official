@@ -1,0 +1,48 @@
+[
+    {
+        "headtt" : "Macbook Pro 14 M3 Pro 18GB - 512GB | Chính hãng Apple Việt Nam"
+        ,"star_icon": "./image/star_icon.jpg"
+        ,"thevaluate" : "38 đánh giá"
+    
+
+        ,"version_1":"36GB - 512GB"
+        ,"ver_1_price": "74.990.000 đ"
+        ,"version_2": "18GB - 1TB"
+        ,"ver_2_price": "57.990.000 đ"
+        ,"version_3": "18GB - 512GB"
+        ,"ver_3_price": "49.290.000 đ"
+
+        ,"type_lap_1": "/image/black_type.jpg"
+        ,"text_color_in_box_1": "Đen"
+        ,"price_lap_type_1": "49.290.000 đ"
+        ,"type_lap_2": "/image/silver_type.jpg"
+        ,"text_color_in_box_2": "Bạc"
+        ,"price_lap_type_2": "49.490.000 đ"
+        ,"type_lap_3": "/image/gray_type.jpg"
+        ,"text_color_in_box_3": "Xám"
+        ,"price_lap_type_3": "18.690.000 đ"
+
+        ,"tradecoin_icon": "image/tradecọin_icon2icon2.png"
+        ,"uhol_price_1": "47.290.000₫"
+        ,"uhol_price_2": "49.290.000 đ"
+
+        ,"evaluate_head_text": "Đánh giá & nhận xét Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam"
+        ,"vote_evaluate": "4.8/5"
+        ,"number_vote": "98 đánh giá"
+        ,"vote_5": "93 đánh giá"
+        ,"vote_4": "5 đánh giá"
+        ,"vote_3": "0 đánh giá"
+        ,"vote_2": "0 đánh giá"
+        ,"vote_1": "0 đánh giá"
+    
+        ,"card_type": "14 nhân Neural Engine 16 nhân"
+        ,"capacity": "16GB"
+        ,"RAM_type": "256GB"
+        ,"hard_drive": "512GB"
+        ,"inches": "14.2 inches"
+        ,"screen_tech": "Độ sáng XDR: 1000 nit liên tục ở chế độ toàn màn hình "
+        ,"battery": "70Wh"
+        ,"port": "Hai cổng Thunderbolt / USB 4 (USB-C)"
+        ,"other_function": "Ổ cứng SSD"
+    }
+]

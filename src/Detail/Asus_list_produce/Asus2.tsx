@@ -1,38 +1,37 @@
 import '../Detail.css'
-import star_icon from "/home/minh/Typescript/author/src/image/star_icon.jpg"
-import golden_type_lap from "/home/minh/Typescript/author/src/image/golden_type.jpg"
-import silver_type_lap from "/home/minh/Typescript/author/src/image/silver_type.jpg"
-import gray_type_lap from "/home/minh/Typescript/author/src/image/gray_type.jpg"
+import data from './Asus2.json'
 import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
 import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
-import tradecoin_icon from "/home/minh/Typescript/author/src/image/tradecọin_icon2icon2.png"
 import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
 import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
 
-
-function Home() {
+function mac1_gen() {
   return (
 <>
-    <div className='header_detail'>
+{data.map((item) => (
+      <>
+      <div>
+        <div className='header_detail'>
           <div className='headder_deltail_left'>
-          <p className='header_title'>Laptop ASUS VivoBook S 14 FLIP TP3402VA-LZ025W</p>
+          <p className='header_title'>{item.headtt}</p>
             </div>
           <div className='headder_deltail_right'>
-            <img className='star' src={star_icon} alt="" />
-            <img className='star' src={star_icon} alt="" />
-            <img className='star' src={star_icon} alt="" />
-            <img className='star' src={star_icon} alt="" />
-            <img className='star' src={star_icon} alt="" />
-            <p className='text_head_evaluate'>38 đánh giá </p>
+            <img className='star' src={item.star_icon} alt="" />
+            <img className='star' src={item.star_icon} alt="" />
+            <img className='star' src={item.star_icon} alt="" />
+            <img className='star' src={item.star_icon} alt="" />
+            <img className='star' src={item.star_icon} alt="" />
+            <p className='text_head_evaluate'>{item.thevaluate} </p>
           </div>
     </div>
-
-    <div className='under_header_mac_air_m1'>
+      </div>
+      <div className='under_header_mac_air_m1'>
       <div className='video_box'>
-        <iframe className="video_thumbnail_macbook_air_m1"
-                src="https://www.youtube.com/embed/6P4s8d6ayLU" title="ASUS Vivobook S 14 Flip OLED (TP3402/TN3402) - Feature Review"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+      <iframe className="video_thumbnail_macbook_air_m1"
+        src="https://www.youtube.com/embed/6P4s8d6ayLU" title="ASUS Vivobook S 14 Flip OLED (TP3402/TN3402) - Feature Review"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+      
         
         
         <div className="infor_product"> 
@@ -69,7 +68,7 @@ function Home() {
             <div className="ifp_contact">
               <div className="ifp_contact_list_1">
                 <a className="number_contact" href="tel:02471010384">02471010384</a>
-                <a className='location_contact' href='https://g.page/cps384hn?gm' target = "_ blank"> - 384 Xã Đàn, Nam Đồng, Đống Đa</a>
+                <a className='location_contact' href='https://g.page/r/CezB_XkISd9KEAI/' target = "_ blank"> - 282 Minh Khai, Q. Hai Bà Trưng</a>
               </div>
               <div className="ifp_contact_list_2">
               <a className="number_contact" href="tel:02471066119">02471066119</a>
@@ -78,6 +77,22 @@ function Home() {
               <div className="ifp_contact_list_3">
               <a className="number_contact" href="tel:02471003133">02471003133</a>
                 <a className='location_contact' href='https://g.page/r/CZcTd_IfEBt9EBA' target = "_ blank"> - 133 Thái Hà, Trung Liệt, Đống Đa</a>
+              </div>
+              <div className="ifp_contact_list_3">
+              <a className="number_contact" href="tel:02471003133">02471003133</a>
+                <a className='location_contact' href='https://g.page/cps524hn?share' target = "_ blank"> - 516 Bạch Mai,Trương Định</a>
+              </div>
+              <div className="ifp_contact_list_3">
+              <a className="number_contact" href="tel:02471003133">02471003133</a>
+                <a className='location_contact' href='https://g.page/cps51hn?share' target = "_ blank"> - 51 Đại Cồ Việt, Lê Đại Hành</a>
+              </div>
+              <div className="ifp_contact_list_3">
+              <a className="number_contact" href="tel:02471003133">02471003133</a>
+                <a className='location_contact' href='https://g.page/r/CZ_YoyqrxPaXEBA' target = "_ blank"> - 124 - 126 - 128 Lạc Long Quân</a>
+              </div>
+              <div className="ifp_contact_list_3">
+              <a className="number_contact" href="tel:02471003133">02471003133</a>
+                <a className='location_contact' href='https://g.page/cps384hn?gm' target = "_ blank"> - 384 Xã Đàn, Nam Đồng</a>
               </div>
             </div>
           </div>
@@ -115,61 +130,43 @@ function Home() {
             <button className='bn_button'>Thêm ngay</button>          
 
           </div>
-          
         </div>
-
       </div>
       <div className='under_header_rig'>
         <div className='under_header_right'>
           <div className='type_product_box'>
-            <p className='text_in_box'>16GB - 512GB</p>
-            <p className='price_in_box'>40.990.000 đ</p>
+            <p className='version_1'>{item.version_1}</p>
+            <p className='ver_1_price'>{item.ver_1_price}</p>
           </div>
           <div className='type_product_box'>
-            <p className='text_in_box'>16GB - 512GB</p>
-            <p className='price_in_box'>40.990.000 đ</p>
+            <p className='version_2'>{item.version_2}</p>
+            <p className='ver_2_price'>{item.ver_2_price}</p>
           </div>
-          <div className='type_product_box'>
-            <p className='text_in_box'>16GB - 512GB</p>
-            <p className='price_in_box'>40.990.000 đ</p>
-          </div>
+          
         </div>
         <div className='under_header_rig_chose_type'>
           <p className='under_header_right_text'>Chọn màu để xem giá và chi nhánh có hàng</p>
           <div className='under_header_right_color'>
             <div className='type_color_product_box'>
-              <img className='img_type_lap' src={golden_type_lap} alt="" />
+              <img className='img_type_lap' src={item.type_lap_1} alt="" />
                 <div className='type_color_product_box_small'>
-                  <p className='text_color_in_box'>Vàng</p>
-                  <p className='price_color_in_box'>19.090.000 đ</p>
+                  <p className='text_color_in_box'>{item.text_color_in_box_1}</p>
+                  <p className='price_color_in_box'>{item.price_lap_type_1}</p>
                 </div>
             </div>
-            <div className='type_color_product_box'>
-            <img className='img_type_lap' src={silver_type_lap} alt="" />
-                <div className='type_color_product_box_small'>
-                  <p className='text_color_in_box'>Bạc</p>
-                  <p className='price_color_in_box'>19.090.000 đ</p>
-                </div>
-            </div>
-            <div className='type_color_product_box'>
-            <img className='img_type_lap' src={gray_type_lap} alt="" />
-                <div className='type_color_product_box_small'>
-                  <p className='text_color_in_box'>Xám</p>
-                  <p className='price_color_in_box'>18.690.000 đ</p>
-                </div>
-            </div>
+           
             
           </div>
           <div className='under_header_option'>
               <div className="under_header_option_box">
-                <img className='tc_icon' src={tradecoin_icon} alt="" />
+                <img className='tc_icon' src={item.tradecoin_icon} alt="" />
                 <div   className="under_header_option_left" >
-                  <p className='uhol_price'>16.190.000₫</p>
+                  <p className='uhol_price'>{item.uhol_price_1}</p>
                   <p className='uhol_text'>Khi thu cũ lên đời</p>
                 </div>
                 <div  className="under_header_option_right">
-                  <p className="uhor_price">18.690.000 đ</p>
-                  <p className='uhor_text'>22.990.000₫</p>
+                  <p className="uhor_price">{item.uhol_price_2}</p>
+                  <p className='uhor_text'>Ưu đãi sự kiện</p>
               
               </div>
               </div>
@@ -219,13 +216,162 @@ function Home() {
 
       </div>
       
+     
+    </div> 
+    <div className="evaluate">
+        <div className="evaluate_box1">
+          <div className="head_text_box1">{item.evaluate_head_text}</div>
+          <div className="under_head_text_evaluate">
+            <div className="vote_evaluate">
+            <p className="text_on_vote_evaluate">{item.vote_evaluate}</p>
+              <div className="list_star">
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+              </div>
+              <p className="text_under_vote_evaluate">{item.number_vote}</p>
+            </div>
+            <div className="detail_evaluate">
+              <div className="progress_1">
+                <p className="text_progress">5</p>
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <progress max="100" className="progress" value="93" ></progress>
+                <p className="text_end_progress">{item.vote_5}</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">4</p>
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <progress max="100" className="progress" value="5" ></progress>
+                <p className="text_end_progress">{item.vote_4}</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">3</p>
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <progress max="100" className="progress" value="0" ></progress>
+                <p className="text_end_progress">{item.vote_3}</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">2</p>
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <progress max="40" className="progress" value="0" ></progress>
+                <p className="text_end_progress">{item.vote_2}</p>
+              </div>
+              <div className="progress_1">
+                <p className="text_progress">1</p>
+                <img className="img_icon_star" src={item.star_icon} alt="" />
+                <progress max="40" className="progress" value="0" ></progress>
+                <p className="text_end_progress">{item.vote_1}</p>
+              </div>
+            </div>
+          </div>
+          <div className="exper">
+            <p className="head_text">Đánh giá theo trải nghiệm</p>
+            <div className="exper_flex_box">
+              <div className="exper_under_left">
+                  <p className="under_head_text">Thời lượng pin</p>
+                  <p className="under_head_text">Hiệu năng</p>
+                  <p className="under_head_text">Chất lượng hiển thị của màn hình</p>
+              </div>
+              <div className="nonflex_box">
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+                <div className="exper_under_right">
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <img className="img_icon_star" src={item.star_icon} alt="" />
+                      <p className="text_in_under_right">5/5</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div className='evaluate_box2'>
+          <div className='head_text_box2'>Thông số kỹ thuật</div>
+          <div className='under_head_text_box2'>
+            <div className='uhtb_row1'>
+              <div className='uhtb_row1_left'>Loại card đồ họa
+              </div>
+              <div className='uhtb_row1_right'>{item.card_type}
+              </div>
+            </div>
+            <div className='uhtb_row2'>
+            <div className='uhtb_row1_left'>Dung lượng RAM
+              </div>
+              <div className='uhtb_row1_right'>{item.capacity}
+              </div>
+            </div>
+            <div className='uhtb_row3'>
+            <div className='uhtb_row1_left'>Loại RAM
+              </div>
+              <div className='uhtb_row1_right'>{item.RAM_type}
+              </div>
+            </div>
+            <div className='uhtb_row4'>
+            <div className='uhtb_row1_left'>Ổ cứng
+              </div>
+              <div className='uhtb_row1_right'>{item.hard_drive}
+              </div>
+            </div>
+            <div className='uhtb_row5'>
+            <div className='uhtb_row1_left'>Kích thước màn hình
+              </div>
+              <div className='uhtb_row1_right'>{item.inches}
+              </div>
+            </div>
+            <div className='uhtb_row6'>
+            <div className='uhtb_row1_left'>Công nghệ màn hình
+              </div>
+              <div className='uhtb_row1_right'>{item.screen_tech}
+              </div>
+            </div>
+            <div className='uhtb_row7'>
+            <div className='uhtb_row1_left'>Pin 
+              </div>
+              <div className='uhtb_row1_right'>{item.battery}
+              </div>
+            </div>
+            <div className='uhtb_row8'>
+            <div className='uhtb_row1_left'>Cổng giao tiếp
+              </div>  
+              <div className='uhtb_row1_right'>{item.port}
+              </div>
+            </div>
+            <div className='uhtb_row9'>
+            <div className='uhtb_row1_left'>Tính năng khác
+              </div>  
+              <div className='uhtb_row1_right'>{item.other_function}
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      </>
       
-    </div>
-
-    
+        ))}
     
 </>
   )
 }
  
-export default Home;
+export default mac1_gen;
