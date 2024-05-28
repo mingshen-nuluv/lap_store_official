@@ -6,6 +6,7 @@ import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jp
 import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
+import Demo from "/home/minh/Typescript/author/src/page/basic"
 
 
 
@@ -58,12 +59,13 @@ function Home() {
           
           <div className="info_product_right">
           <div className="info_product_location">
-            <div className="ifpl_HN">
+            <Demo/>
+            {/* <div className="ifpl_HN">
               <p className='ifpl_text'>Hà Nội</p>
             </div>
             <div className="ifpl_DongDa"> 
               <p className='ifpl_text'>Đống Đa</p>
-            </div>
+            </div> */}
           </div>
             <p className='ifpl_text_under_location'>Có <strong>3</strong> cửa hàng có sản phẩm</p>
             <div className="ifp_contact">

@@ -1,11 +1,12 @@
 import data from "./data/home.json"
 import '../page/index.css'
 import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
+
 function gen_home(){
     return(
         <>
-        {data.map((item) => (
-          <div className="product_list1">
+        {data.map((item, index) => (
+          <div className="product_list1" key={index}>
             
             <div className="flex_box">
                     <div>

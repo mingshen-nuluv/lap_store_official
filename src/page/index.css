@@ -2,16 +2,40 @@
   display:flex;
   height: 40px;
 }
-.header_left{
-  width: 1000px;
+.call_to_buy{
   display: flex;
   font-weight: 500;
   text-decoration: none;
-  color:rgb(0, 0, 0); 
+  color:rgb(255, 255, 255); 
   font-family:Arial, Helvetica, sans-serif;
   font-size: 17px;
   transition: color 0.3s; 
-  margin: auto 40px auto 300px;
+  margin: auto 100px;
+}
+
+.custom_help{
+  text-decoration: none;
+  
+  /* font-weight: 600; */
+  
+  color:rgb(255, 255, 255); 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 16px;
+  transition: color 0.3s;  
+  width: 70%;
+  border-radius: 8px;
+  /* background: #cc2d40; */
+  transition: transform .1s; 
+  background-color: #cc2d40;
+  border: 0;
+  padding: 0;
+
+}
+.custom_help:hover{
+  /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9)); */
+  background-color: #dd8a93;
+  transform: scale(1.1); 
+
 }
 
 .header_right{
@@ -20,86 +44,80 @@
   display: flex;
 }
 .upside_head{
+  margin: auto 0;
   text-align: center;
+
 
 }
 .slogan_head{
-  width: 400px;
-  height: 30px;
-  text-align: center;
-  margin-left: 40px ;
+  width: auto;
+  height: 25px;
+  margin: 0 30px;
+  
+
 }
 
 .signin{
-  width: auto;
-  height: 30px;
-  margin: auto 40px;
+  margin: 10px 0 0 30px;
+  width: 6%;
+  height: 40px;
+
 }
 .signin_button{
-  width: 180px;
-  height: 30px;
-  font-size: 16px;
-  font-weight: 600;
+  transition: transform .1s;  
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  /* font-weight: 600; */
   cursor: pointer;
+  border: none;
+  padding : none;
   border-radius: 8px;
-  background:linear-gradient(45deg,rgb(192, 192, 192),rgb(177, 97, 97));
+  background-color: #cc2d40;
+  /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(177, 97, 97)); */
 }
 .signin_button:hover{
-  background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9));
-}
+  /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9)); */
+  background-color: #dd8a93;
+  transform: scale(1.1); }
 .signup{
-  width: auto;
-  height: 30px;
-  margin: auto 40px;
+  margin: 10px 0 0 0;
+  width: 6%;
+  height: 40px;
 
 }
 .signup_button{
   transition: transform .1s;  
   color: white;
-  width: 180px;
-  height: 30px;
-  font-size: 16px;
-  font-weight: 600;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  /* font-weight: 600; */
   cursor: pointer;
+  border: none;
+  padding : none;
   border-radius: 8px;
   background-color: #cc2d40;
   /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(177, 97, 97)); */
 }
 .signup_button:hover{
   /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9)); */
-  transform: scale(1.1); 
+  background-color: #dd8a93;
+  transform: scale(1.1);  
 }
-.custom_help{
-  font-weight: 600;
-  text-decoration: none;
-  color:rgb(255, 255, 255); 
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  transition: color 0.3s;  
-  width: 400px;
-  border-radius: 8px;
-  background: #cc2d40;
-  transition: transform .1s;  
 
-}
-.custom_help:hover{
-  background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9));
-  transform: scale(1.1); 
 
-}
 .under_header{
   display: flex;
-  width: 100%;
+  width: 100%px ;
   height:70px;
   /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(131, 35, 35)); */
   background: #cc2d40;
 }
 .logo{
-  /* margin-left: 300px;
-  margin-top: 15px; */
-  margin: auto 0 auto 300px;
-  width: 40%
 
+  margin: auto 0 auto 10%;
 }
 .logo_store{
   border-radius: 8px;
@@ -117,7 +135,7 @@
   cursor: pointer;
 }
 .search{
-  margin: auto 0 auto 0;
+  margin: auto 0 ;
 }
 .search-box{
   display: flex;
@@ -138,8 +156,10 @@
   margin-left:-5px;
   height: 42px;
   width:150px;
-  background:linear-gradient(45deg,rgb(192, 192, 192),rgb(177, 97, 97));
+  /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(177, 97, 97)); */
   color: white;
+  background-color: #dd8a93;
+
   font-size:15px;
   border-style: inherit;
   border-top-right-radius:8px ;
@@ -154,26 +174,34 @@
   margin-top: 47px;
   margin-left: 30px;
 }
-.body-box{
-  background:linear-gradient(45deg,rgb(58, 21, 21),rgb(192, 192, 192));
-  width: 100%;
-}
+
 .help_contact{
   position: fixed;
   bottom: 40px;
   right: -150px;
 }
 .hc_icon{
-  border-radius: 8px;
-  width: 20%;
-  animation: pulse-blue 2s infinite;
-  background-color: #028fe3;
+  width: 30%;
+  margin: 0 0 0 25% ;
+
 }
 
+.fixed_header_box{
+  position: fixed;
+  margin-top: -98px;
+  background-color: white;
+  width: 100%;
+  
 
+}
 .body-contaner{
+  margin-top: 98px;
   height: 45px;
   background-color: #a92525;
+}
+.body-box{
+  background:linear-gradient(45deg,rgb(58, 21, 21),rgb(192, 192, 192));
+  width: 100%;
 }
 .navbar{
   margin-left: 410px;
@@ -1131,4 +1159,7 @@ box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
   height: 50px;
   width: auto;
   background-color: rgb(242, 242, 242);
+}
+.cascader_drop{
+  width: 95%;
 }

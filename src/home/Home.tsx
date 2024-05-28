@@ -6,9 +6,14 @@ import banner2 from "../image/banner2.jpg"
 import banner3 from "../image/banner3.jpg"
 import Generics from "./gen_home"
 import Genbrand from "./genbrand"
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import type { MenuProps, MenuTheme } from 'antd';
+import { Menu, Switch } from 'antd';
+;
 function Home() {
   return (
 <>
+
 
 <div className="header">
       <div className="banner">
@@ -17,6 +22,9 @@ function Home() {
             <img className="banner1" src={banner2} alt=""></img>
             <img className="banner1" src={banner3} alt=""></img>
         </div>
+      </div>
+      <div className='drop_down'>
+        {/* <Dropdown/> */}
       </div>
       <div>             
         <img className ="backgroundimage" src={backgr} alt="pic"/>

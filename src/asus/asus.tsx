@@ -25,7 +25,7 @@ function Home() {
             </div>
             <div className="product_form">
               <div className='product_form_up'>
-                  <p className="shop_list_head_text">Sản Phẩm Nổi Bật</p>
+                  <p className="shop_list_head_text">Asus</p>
               </div>
               <div className='product_form_down'>
                 <Gen_asus/>

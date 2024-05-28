@@ -6,6 +6,8 @@ import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jp
 import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
+import Demo from "/home/minh/Typescript/author/src/page/basic"
+import { Image } from 'antd';
 
 
 
@@ -64,14 +66,14 @@ function Home() {
           
           <div className="info_product_right">
           <div className="info_product_location">
-            <div className="ifpl_HN">
+          <Demo/>
+            {/* <div className="ifpl_HN">
               <p className='ifpl_text'>Hà Nội</p>
             </div>
             <div className="ifpl_DongDa"> 
               <p className='ifpl_text'>Đống Đa</p>
-            </div>
+            </div> */}
           </div>
-            <p className='ifpl_text_under_location'>Có <strong>3</strong> cửa hàng có sản phẩm</p>
             <div className="ifp_contact">
               <div className="ifp_contact_list_1">
                 <a className="number_contact" href="tel:02471010384">02471010384</a>
@@ -107,14 +109,14 @@ function Home() {
         
         <div className="buy_with">
           <div className="bw_prod_1">
-            <img className='img_bw_prod' src={bw_prod1} alt="" />
+            <Image className='img_bw_prod' src={bw_prod1} alt="" />
             <p className='text_bw_prod'>Hub Ugreen USB-C to 2 x USB-A 2.0 + USB-A ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 416.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 320.000đ</p> 
             <button className='bn_button'>Thêm ngay</button>          
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod2} alt="" />
+          <Image className='img_bw_prod' src={bw_prod2} alt="" />
             <p className='text_bw_prod'>HUB Chuyển Đổi Ugreen Type C 6 in 1 CM195... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 950.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 800.000đ</p> 
@@ -122,7 +124,7 @@ function Home() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod3} alt="" />
+          <Image className='img_bw_prod' src={bw_prod3} alt="" />
             <p className='text_bw_prod'>Củ sạc Anker PowerPort III 3 cổng 65W A2667 ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 1.150.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 700.000đ</p>  
@@ -130,7 +132,7 @@ function Home() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod4} alt="" />
+          <Image className='img_bw_prod' src={bw_prod4} alt="" />
             <p className='text_bw_prod'>Cáp USB-C to USB-C Anker Powerline Flow ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 350.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 240.000đ</p>  

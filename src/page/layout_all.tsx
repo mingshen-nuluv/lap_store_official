@@ -1,5 +1,7 @@
 import '../page/index.css';
-import { Outlet } from "react-router-dom";
+import { Spin } from "antd"
+import { Anchor, Col, Row } from 'antd';
+import { Outlet } from "react-router-dom"
 import logo_store from "../image/lap_store_fix-removebg-preview.png"
 import slogan_head1 from "../image/slogan_head1.jpg"
 import slogan_head2 from "../image/slogan_head2.jpg"
@@ -28,57 +30,61 @@ import dienthoaivui_icon from "../image/dienthoaivui_icon.jpg"
 import careS_icon from "../image/careS_icon.jpg"
 import Schannel_icon from "../image/Schannel_icon.jpg"
 import forum_icon from "../image/forum_icon.jpg"
-import hc_icon from "../image/facebook_icon_position.png"
-import star_icon from "../image/star_icon.jpg"
+import hc_icon from "../image/fb_icon_position.png"
 
 export function Header(){
     return(
         <>
-
-            <div className="upside_head">
+        
+          <div className='fixed_header_box'>
+          <div  className="upside_head">
                 <img className="slogan_head" src={slogan_head1} alt=""></img>
                 <img className="slogan_head" src={slogan_head2} alt=""></img>
                 <img className="slogan_head" src={slogan_head3} alt=""></img>
                 <img className="slogan_head" src={slogan_head2} alt=""></img>
           </div>
-        <div className="header_box">
-          <div className="header_left">
-              <a href="tel:+849888888888">
-               <button className='custom_help' title="Gọi ngay để được hỗ trợ">Chăm sóc khách hàng : 09888888888</button>
-              </a>
-          </div>
-          <div className="header_right">
-            <div className="signin">
-              <a href='/signin'>
-                <button className="signup_button">Đăng Nhập</button>
-              </a>
+            
+          <div className="under_header">
+          <div className="logo" >
+            <a href="/">
+            <img className="logo_store" src={logo_store} alt="" title="Trang Chủ"></img>
+            </a>
+          </div>  
+          
+          <div className="call_to_buy">
+                <a href="tel:+849888888888">
+                <button className='custom_help' title="Gọi ngay để được hỗ trợ">Tổng đài hỗ trợ  09888888888</button>
+                </a>
             </div>
-            <div className="signin">
-              <a href='/signup'>
-                <button className="signup_button">Đăng Ký</button>  
-              </a>
+            <div className="spin_layer">
+            </div>
+          
+          <div className="search">
+            <div className="search-box">
+              <input className="search-box-input" type="text"  placeholder="Bạn cần tìm gì?" />
+              <input className="search-box-button" type="button"  defaultValue="Tìm kiếm"  />
             </div>
           </div>
-        </div>
-        <div className="under_header">
-        <div className="logo" >
-          <a href="/">
-          <img className="logo_store" src={logo_store} alt="" title="Trang Chủ"></img>
-          </a>
-        </div>  
-        <div className="search">
-          <div className="search-box">
-            <input className="search-box-input" type="text"  placeholder="Bạn cần tìm gì?" />
-            <input className="search-box-button" type="button"  defaultValue="Tìm kiếm"  />
+              <div className="signin">
+                <a href='/signin'>
+                  <button className="signin_button">Đăng Nhập</button>
+                </a>
+              </div>
+              <div className="signup">
+                <a href='/signup'>
+                  <button className="signup_button">Đăng Ký</button>  
+                </a>
+              </div>
+          <div className="profile">
           </div>
+          
+          
         </div>
-        <div className="profile">
-        </div>
+          </div>
         
-      </div>
       <div className="body-contaner">
         <div className="body-box">
-          <a className='help_contact' href="https://www.facebook.com/nhatminh.bigbro01/" target="_ blank" >
+          <a className='help_contact' href="https://www.facebook.com/nhatminh.bigbro01/" target="_ blank">
             <img className="hc_icon" src={hc_icon} alt="" />
           </a>
           <div className="navbar">
@@ -103,10 +109,13 @@ export function Header(){
           </div>
         </div>
       </div>
-       
+      <div style={{ border: '20px' }}>
+      
+    </div>
+    
       <Outlet/>
       
-      <div className='descriptive_para'>
+      <div  className='descriptive_para'>
             <div className='para_left'>
                 <div className='para_box_left'>
                   <div> 

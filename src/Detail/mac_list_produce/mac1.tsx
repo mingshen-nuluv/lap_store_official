@@ -6,6 +6,10 @@ import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jp
 import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
+import Demo from "/home/minh/Typescript/author/src/page/basic"
+import { Image } from 'antd';
+import Tab from "/home/minh/Typescript/author/src/Detail/mac_list_produce/basic_mac1"
+
 
 function mac1_gen() {
   return (
@@ -25,7 +29,9 @@ function mac1_gen() {
             <img className='star' src={item.star_icon} alt="" />
             <p className='text_head_evaluate'>{item.thevaluate} </p>
           </div>
-    </div>
+        </div>
+        <div>
+        </div>
       </div>
       <div className='under_header_mac_air_m1'>
       <div className='video_box'>
@@ -63,12 +69,14 @@ function mac1_gen() {
           
           <div className="info_product_right">
           <div className="info_product_location">
-            <div className="ifpl_HN">
+          <Demo/>
+            {/* <div className="ifpl_HN">
               <p className='ifpl_text'>Hà Nội</p>
             </div>
             <div className="ifpl_DongDa"> 
-              <p className='ifpl_text'>Đống Đa</p>
-            </div>
+            
+              <p className='ifpl_text'></p>
+            </div> */}
           </div>
             <p className='ifpl_text_under_location'>Có <strong>3</strong> cửa hàng có sản phẩm</p>
             <div className="ifp_contact">
@@ -106,14 +114,14 @@ function mac1_gen() {
         
         <div className="buy_with">
           <div className="bw_prod_1">
-            <img className='img_bw_prod' src={bw_prod1} alt="" />
+            <Image className='img_bw_prod' src={bw_prod1} alt="" />
             <p className='text_bw_prod'>Hub Ugreen USB-C to 2 x USB-A 2.0 + USB-A ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 416.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 320.000đ</p> 
             <button className='bn_button'>Thêm ngay</button>          
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod2} alt="" />
+          <Image className='img_bw_prod' src={bw_prod2} alt="" />
             <p className='text_bw_prod'>HUB Chuyển Đổi Ugreen Type C 6 in 1 CM195... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 950.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 800.000đ</p> 
@@ -121,7 +129,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod3} alt="" />
+          <Image className='img_bw_prod' src={bw_prod3} alt="" />
             <p className='text_bw_prod'>Củ sạc Anker PowerPort III 3 cổng 65W A2667 ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 1.150.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 700.000đ</p>  
@@ -129,7 +137,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod4} alt="" />
+          <Image className='img_bw_prod' src={bw_prod4} alt="" />
             <p className='text_bw_prod'>Cáp USB-C to USB-C Anker Powerline Flow ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 350.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 240.000đ</p>  
@@ -179,7 +187,8 @@ function mac1_gen() {
             </div>
             
           </div>
-          <div className='under_header_option'>
+          <Tab/>
+          {/* <div className='under_header_option'>
               <div className="under_header_option_box">
                 <img className='tc_icon' src={item.tradecoin_icon} alt="" />
                 <div   className="under_header_option_left" >
@@ -193,12 +202,14 @@ function mac1_gen() {
               </div>
               </div>
               
-          </div>
+          </div> */}
           <div className="save_for_user">
               <div className="sfu_text_up">Tiết kiệm thêm đến <strong className='strong_text'>187.000đ</strong> cho Smember</div>
               <a href='/' className="sfu_text_down">Kiểm tra giá cuối cùng của bạn </a> {'>'}
           </div>
         </div>
+        
+        {/* <div>
         <div>
           <div className='banner_mac_air_m1'>
             <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" />
@@ -236,10 +247,12 @@ function mac1_gen() {
 
         </div>
 
-      </div>
+      </div> */}
       
      
     </div> 
+        </div>
+        
     <div className="evaluate">
         <div className="evaluate_box1">
           <div className="head_text_box1">{item.evaluate_head_text}</div>
