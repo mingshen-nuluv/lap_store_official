@@ -53,7 +53,7 @@ export function Header(){
           
           <div className="call_to_buy">
                 <a href="tel:+849888888888">
-                <button className='custom_help' title="Gọi ngay để được hỗ trợ">Tổng đài hỗ trợ  09888888888</button>
+                <button className='custom_help' title="Gọi ngay để được hỗ trợ"><strong>Tổng đài hỗ trợ </strong> 09888888888</button>
                 </a>
             </div>
             <div className="spin_layer">

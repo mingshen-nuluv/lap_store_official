@@ -1,6 +1,7 @@
 import data from "./data/home.json"
 import '../page/index.css'
 import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
+import Demo from '../page/heart_icon'
 
 function gen_home(){
     return(
@@ -24,7 +25,9 @@ function gen_home(){
                   <div className="product_price">
                   <p className="product_old_price">{item.old}</p>
                     <p className="product_price_sale">{item.price}</p>
-                    
+                  </div>
+                  <div className="heart_icon">
+                      <Demo/>
                   </div>
                 </div>
         ))}

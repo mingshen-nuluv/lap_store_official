@@ -174,7 +174,7 @@ text-decoration: none;
 .sale_box{
   border-radius: 10px;
   margin: 10px 0 0 0px;
-  height: 97px;
+  height: 130px;
   width: 100%;
   background-color: rgb(254,226,226);
 }
@@ -188,7 +188,7 @@ text-decoration: none;
 .info_sale_box{
   margin: -18px 0 0 2px;
   width: 99%;
-  height: 57px;
+  height: 80px;
   background-color: rgb(250, 250, 250);
   border-bottom-left-radius:10px ;
   border-bottom-right-radius:10px ;
@@ -252,38 +252,93 @@ text-decoration: none;
   width: 120%;
 }
 
-.under_header_option_box{
-  background-color: rgb(238,238,239);
-  width: 96%;
+:where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab {
+  position:relative ;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 57px;
+  font-size: 14px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.88);
+}
+:where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+ 
+  width: 100%;
+}
+:where(.css-dev-only-do-not-override-j9bb5n).ant-tabs >.ant-tabs-nav .ant-tabs-nav-wrap, :where(.css-dev-only-do-not-override-j9bb5n).ant-tabs >div>.ant-tabs-nav .ant-tabs-nav-wrap {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex: auto;
+  align-self: stretch;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: translate(0);
+}
+:where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-tab {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 50px;
+  font-size: 14px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.88);
+  width: 160px;
+}
+.ant_tab{
+  display: flex;
+}
+.under_ant_tab_left{
+  width: 60%;
+  height: auto;
+  margin: 0 0 0 -30px;
+}
+.under_ant_tab_right{
+  width: 60%;
+  height: auto;
+  margin: 0 0 0 -30px;
+}
+.under_header_option_box {
+  width: 265%;
+  margin: 0 0 0 -60px;
   height: 74px;
   border-radius: 5px;
   display: flex;
-  
-
 }
+
 .under_header_option_left{
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
     border: red solid 1px;
-    /* position: relative; */
     text-align: center;
     transition: background-color .5s ease;
     width:120%;
+    height: 50px;
 }
 .under_header_option_left:hover{
 
   background-color: aliceblue;
 }
 .tc_icon{
-  margin: 20px 0 0 20px;
-  height: 30px;
-  width: 40px;
+  margin: 35px 0 0 33px;
+  height: 40px;
+  width: auto;
 }
 
 
 .uhol_price{
-  margin: 7px  0 0 0;
+  margin: 2px  0 0 0;
   color:rgb(65, 65, 65);
   font-size: 16px;
   font-weight: 600;
@@ -291,7 +346,7 @@ text-decoration: none;
   'Arial Narrow', Arial, sans-serif;
 }
 .uhor_price{
-  margin: 7px  0 0 0;
+  margin: 2px  0 0 0;
   color:rgb(65, 65, 65);
   font-size: 16px;
   font-weight: 600;
@@ -317,16 +372,16 @@ text-decoration: none;
   /* text-decoration-line: line-through; */
 
 }
-.under_header_option_right{
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: red solid 1px;
-
-    /* position: relative; */
-    text-align: center;
-    transition: background-color .5s ease;
-    width: 45%;
+.under_header_option_right {
+  border-radius: 5px;
+  cursor: pointer;
+  border: red solid 1px;
+  /* position: relative; */
+  text-align: center;
+  transition: background-color .5s ease;
+  width: 333%;
+  height: 50px;
+  margin: 0 0 0 -50px;
 }
 .strong_text{
   color: crimson;
@@ -372,6 +427,70 @@ font-family: 'Franklin Gothic Medium',
   font-size: 15px;
   text-align: center;
 }
+.recive_old{
+
+ border-radius: 8px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(236,129,4);
+  color: white;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.ro_up_text{
+ text-align: center;
+ font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 3px 0;
+  
+
+
+}
+.ro_down_text{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer_ant_tab{
+  border-radius: 8px;
+  margin-top: 10px;
+  border: solid 1px rgb(121, 117, 117);
+}
+.title_list_footer{
+  font-size: 14px;
+  color: red;
+}
+.footer_ant_tab{
+  height: auto;
+  width: auto;  
+
+}
+
+.head_footer_ant_tab{
+  font-size: 20px;
+  background-color:rgb(209,213,219);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  align-items: center;
+  text-align: center;
+
+
+}
+.head_footer_ant_text{
+  height: 100%;
+  font-size: 20px;
+  margin:  auto 0;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.head_footer_ant_tab_data{
+  margin: 0 0 0 10px ;
+}
 .infor_product{
   display: flex;
 }
@@ -386,6 +505,12 @@ font-family: 'Franklin Gothic Medium',
   font-weight: 600;
   font-size: 18px;
   margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_info2{
+  margin: -20px 0 0 0px;
+  padding: 20px 0 0 30px;
+  font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .line1{
@@ -557,6 +682,7 @@ font-family: 'Franklin Gothic Medium',
   vertical-align: middle;
 
 }
+
 :where(.css-dev-only-do-not-override-j9bb5n).ant-image {
   position: static;
   display: inline-block;
@@ -573,6 +699,7 @@ font-family: 'Franklin Gothic Medium',
   opacity: 0;
   transition: opacity 0.3s;
 }
+
 .strongtext_bw_prod_up{
   text-decoration: line-through ;
   margin: 0px;
@@ -614,3 +741,31 @@ font-family: 'Franklin Gothic Medium',
 
 }
 
+
+:where(.css-dev-only-do-not-override-j9bb5n).ant-rate {
+
+  margin: 10px 0 0 30px;
+  box-sizing: border-box;
+  color: #ffbb00;
+  font-size: 28px;
+  line-height: 1;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  display: inline-block;
+  outline: none;
+}
+.rate_text{
+  width: 51%;
+  margin-left: 4%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #494949;
+}
+
+.rate_box{
+  display: flex;
+}
+.rate_value{
+text-align: center;
+}

@@ -8,7 +8,8 @@ import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_Po
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
 import Demo from "/home/minh/Typescript/author/src/page/basic"
 import { Image } from 'antd';
-import Tab from "/home/minh/Typescript/author/src/Detail/mac_list_produce/basic_mac1"
+import Tab from "./basic_mac1"
+import Rate from '../rate'
 
 
 function mac1_gen() {
@@ -187,7 +188,12 @@ function mac1_gen() {
             </div>
             
           </div>
+          <div className='ant_tab'>
+          <img className='tc_icon' src='image/tradecọin_icon2icon2.png' alt="" />
+
           <Tab/>
+
+          </div>
           {/* <div className='under_header_option'>
               <div className="under_header_option_box">
                 <img className='tc_icon' src={item.tradecoin_icon} alt="" />
@@ -203,10 +209,10 @@ function mac1_gen() {
               </div>
               
           </div> */}
-          <div className="save_for_user">
+          {/* <div className="save_for_user">
               <div className="sfu_text_up">Tiết kiệm thêm đến <strong className='strong_text'>187.000đ</strong> cho Smember</div>
               <a href='/' className="sfu_text_down">Kiểm tra giá cuối cùng của bạn </a> {'>'}
-          </div>
+          </div> */}
         </div>
         
         {/* <div>
@@ -336,6 +342,14 @@ function mac1_gen() {
                 </div>
               </div>
               
+            </div>
+          </div>
+          <div className='rate_box'>
+            <div className='rate_text'>
+                <p >Đánh giá trải nghiệm về chúng tôi</p>
+            </div>
+            <div className='rate_star'>
+                <Rate/>
             </div>
           </div>
         </div>
