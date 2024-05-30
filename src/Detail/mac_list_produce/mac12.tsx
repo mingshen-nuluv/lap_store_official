@@ -1,12 +1,12 @@
 import '../Detail.scss'
 import data from './mac2.json'
-import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
-import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
-import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
-import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
-import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
-import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
-import Demo from "/home/minh/Typescript/author/src/page/basic"
+// import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
+// import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
+// import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
+// import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
+// import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
+// import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
+// import Demo from "/home/minh/Typescript/author/src/page/basic"
 import { Image } from 'antd';
 
 
@@ -204,7 +204,7 @@ function Home() {
         </div>
         <div>
           <div className='banner_mac_air_m1'>
-            <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" />
+            {/* <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" /> */}
           </div>
         </div>
         <div className='sale_box'>
@@ -223,7 +223,7 @@ function Home() {
         </button>
 
         <div className='cart'>
-          <img className='cart_icon' src={giohang} alt="" />
+          {/* <img className='cart_icon' src={giohang} alt="" /> */}
           <p className='cart_text'>Them vao gio</p>
         </div>
         </div>

@@ -1,6 +1,6 @@
 import data from "./data/genasus.json"
 import '../page/index.scss'
-import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
+// import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
 
 function gen_asus(){
     return(

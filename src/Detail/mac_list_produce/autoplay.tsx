@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'antd';
-import banner from "/home/minh/Typescript/author/src/image/banner.jpg"
-import banner2 from "/home/minh/Typescript/author/src/image/banner2.jpg"
-import banner3 from "/home/minh/Typescript/author/src/image/banner3.jpg"
+// import banner from "/home/minh/Typescript/author/src/image/banner.jpg"
+// import banner2 from "/home/minh/Typescript/author/src/image/banner2.jpg"
+// import banner3 from "/home/minh/Typescript/author/src/image/banner3.jpg"
 import '../Detail.scss';
 
 const contentStyle: React.CSSProperties = {

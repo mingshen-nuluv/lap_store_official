@@ -1,10 +1,11 @@
 import React from 'react';
 import { Tabs } from 'antd';
 import type { TabsProps } from 'antd';
-import Data from "/home/minh/Typescript/author/src/Detail/mac_list_produce/list_ant_design"
 import '../Detail.scss';
-import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
-import AutoPlay from '/home/minh/Typescript/author/src/Detail/mac_list_produce/autoplay'
+
+// import Data from "/home/minh/Typescript/author/src/Detail/mac_list_produce/list_ant_design"
+// import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
+// import AutoPlay from '/home/minh/Typescript/author/src/Detail/mac_list_produce/autoplay'
 
 const onChange = (key: string) => {
   console.log(key);
