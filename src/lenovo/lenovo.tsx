@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../page/index.css';
+import '../page/index.scss';
 import backgr from '../image/pic.png'
 import bannerlenovo1 from "../image/bannerlenovo1.jpg"
 import bannerlenovo2 from "../image/bannerlenovo2.jpg"

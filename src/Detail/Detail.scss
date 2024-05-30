@@ -161,15 +161,19 @@
 }
 .banner_mac_air_m1{
 text-decoration: none;
-
-
-
 }
+/* .autoplay_banner{
+  height: auto;
+  width: 480px;
+} */
 .banner_mac_air_m1_img{
-  height: 70px;
-  width: 100%;
+  height: 100px;
+  width: 480px;
   margin: 10px 0 0  0;
   border-radius: 10px;
+}
+.slick-track{
+  width: 300px;
 }
 .sale_box{
   border-radius: 10px;
@@ -211,10 +215,15 @@ text-decoration: none;
 .button_buy{
   border-radius: 10px;
   margin: 10px 0 0 0px;
+  cursor: pointer;
   width: 444px;
   height: 60px;
-  background:linear-gradient(45deg,rgb(239,41,44),rgb(117, 87, 88));
-  
+  border: none;
+  background-color : rgb(184, 5, 5);
+  transition: background-color .2 ease;
+}
+.button_buy:hover{
+  background-color: #818181;
 }
 .buy_text_up{
   margin: 0 0 0 0;
@@ -331,11 +340,16 @@ text-decoration: none;
   background-color: aliceblue;
 }
 .tc_icon{
-  margin: 35px 0 0 33px;
+  margin: 35px 30px 0 33px;
   height: 40px;
   width: auto;
 }
-
+:where(.css-dev-only-do-not-override-j9bb5n).ant-tabs .ant-tabs-content-holder {
+  flex: auto;
+  margin: 0 0 0 -80px;
+  min-width: 0;
+  min-height: 0;
+}
 
 .uhol_price{
   margin: 2px  0 0 0;
@@ -416,33 +430,38 @@ font-family: 'Franklin Gothic Medium',
   text-align: center;
   margin: 8px 0 0 0px;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  font-family: 'Franklin Gothic Medium', 
-  'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .isment_small_text_down{
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 4px 0 0 0 ;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
 }
 .recive_old{
-
- border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
   width: 100%;
   height: 60px;
   background-color: rgb(236,129,4);
   color: white;
   align-items: center;
   margin-top: 10px;
-  
+  transition: background-color .2s ease;
+
+}
+.recive_old:hover{
+  background-color: #818181;
 }
 .ro_up_text{
  text-align: center;
  font-weight: 600;
   font-size: 20px;
-  margin: 0 0 3px 0;
+  margin: 3px 0 ;
   
 
 
@@ -744,18 +763,22 @@ font-family: 'Franklin Gothic Medium',
 
 :where(.css-dev-only-do-not-override-j9bb5n).ant-rate {
 
-  margin: 10px 0 0 30px;
+  /* margin: 10px 0 0 30px; */
+  align-items: center;
   box-sizing: border-box;
   color: #ffbb00;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1;
   list-style: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   display: inline-block;
   outline: none;
 }
+.rate_star{
+  margin-top: 15px;
+}
 .rate_text{
-  width: 51%;
+  width: 54%;
   margin-left: 4%;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;

@@ -1,4 +1,4 @@
-import '../Detail.css'
+import '../Detail.scss'
 import data from './mac3.json'
 import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
 import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"

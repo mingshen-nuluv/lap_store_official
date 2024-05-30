@@ -1,4 +1,4 @@
-import '../page/index.css';
+import '../page/index.scss';
 import { Outlet } from "react-router-dom";
 import logo_store from "../image/lap_store_fix-removebg-preview.png"
 import slogan_head1 from "../image/slogan_head1.jpg"

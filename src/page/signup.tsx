@@ -1,5 +1,5 @@
 import React from 'react';
-import '../page/index.css';  
+import '../page/index.scss';  
 import pic_sign_up from "../image/pic_signup.jpg"
 import back_button from "../image/back_button.jpg"
 import google from "../image/google.jpg"

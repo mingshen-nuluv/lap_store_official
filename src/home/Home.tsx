@@ -6,10 +6,8 @@ import banner2 from "../image/banner2.jpg"
 import banner3 from "../image/banner3.jpg"
 import Generics from "./gen_home"
 import Genbrand from "./genbrand"
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps, MenuTheme } from 'antd';
-import { Menu, Switch } from 'antd';
-;
+
+
 function Home() {
   return (
 <>
@@ -24,7 +22,6 @@ function Home() {
         </div>
       </div>
       <div className='drop_down'>
-        {/* <Dropdown/> */}
       </div>
       <div>             
         <img className ="backgroundimage" src={backgr} alt="pic"/>

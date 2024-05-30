@@ -1,5 +1,5 @@
 import React from 'react';
-import '../page/index.css';
+import '../page/index.scss';
 import type { CascaderProps } from 'antd';
 import { Cascader } from 'antd';
 

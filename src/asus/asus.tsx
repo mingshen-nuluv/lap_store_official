@@ -1,4 +1,4 @@
-import '../page/index.css';
+import '../page/index.scss';
 import backgr from '../image/pic.png'
 import banner from "../image/banner.jpg"
 import bannerasus from "../image/bannerasus.jpg"

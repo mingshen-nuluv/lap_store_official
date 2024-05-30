@@ -60,7 +60,7 @@ function App() {
                 
               <Route element={<Header/>}>
                 <Route path ='/' element = {<Home/>}/>
-                <Route path = '/macbook' element = {<Macbook/>}/>
+                <Route path = '/macbook/' element = {<Macbook/>}/>
                 <Route path = '/asus' element = {<Asus/>}/>
                 <Route path = '/msi' element = {<Msi/>}/>
                 <Route path = '/lenovo' element = {<Lenovo/>}/>

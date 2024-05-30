@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeartOutlined } from '@ant-design/icons';
 import { Flex, Rate } from 'antd';
-import '../page/index.css';
+import '../page/index.scss';
 
 
 const App: React.FC = () => (

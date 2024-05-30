@@ -2,11 +2,9 @@ import React from 'react';
 import { Tabs } from 'antd';
 import type { TabsProps } from 'antd';
 import Data from "/home/minh/Typescript/author/src/Detail/mac_list_produce/list_ant_design"
-import '../Detail.css';
-import banner_recived from "/home/minh/Typescript/author/src/image/banner_recived_old.jpg"
-import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
+import '../Detail.scss';
 import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
-
+import AutoPlay from '/home/minh/Typescript/author/src/Detail/mac_list_produce/autoplay'
 
 const onChange = (key: string) => {
   console.log(key);
@@ -43,8 +41,16 @@ const items: TabsProps['items'] = [
               </a>
             </div>
         </div>
-        <img className='banner_mac_air_m1_img' src={banner_recived} alt="" />
-
+        <div className='autoplay_banner'>
+          {/* <img className='banner_mac_air_m1_img' src={banner_recived} alt="" /> */}
+              <div className='banner_mac_air_m1_img'>
+                    <AutoPlay/>
+              </div>
+        </div>
+        <button className='recive_old'>
+            <p className='ro_up_text'>Thu cũ lên đời</p>
+            <p className='ro_down_text'>Chỉ từ 11.190.000đ</p>
+        </button>
         <div className='buy_area'>
         <button className="button_buy">
           <p className='buy_text_up'>Mua ngay</p>
@@ -69,10 +75,7 @@ const items: TabsProps['items'] = [
           </div>
 
         </div>
-        <div className='recive_old'>
-            <p className='ro_up_text'>Thu cũ lên đời</p>
-            <p className='ro_down_text'>Chỉ từ 11.190.000đ</p>
-        </div>
+        
 
         <div className='footer_ant_tab'>
           <div className='head_footer_ant_tab'><p className='head_footer_ant_text'>ƯU ĐÃI THÊM</p></div>
@@ -98,10 +101,11 @@ const items: TabsProps['items'] = [
     children: <>
     
     <div className='under_ant_tab_right' >
-        <div >
-          <div className='banner_mac_air_m1'>
-            <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" />
-          </div>
+        <div className='autoplay_banner'>
+          {/* <img className='banner_mac_air_m1_img' src={banner_recived} alt="" /> */}
+              <div className='banner_mac_air_m1_img'>
+                    <AutoPlay/>
+              </div>
         </div>
         <div className='sale_box'>
             <img src="" alt="" />

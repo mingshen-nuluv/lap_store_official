@@ -1,5 +1,5 @@
 import data from "./data/genbrand.json"
-import '../page/index.css'
+import '../page/index.scss'
 function gen__head_home(){
     return(
         <>

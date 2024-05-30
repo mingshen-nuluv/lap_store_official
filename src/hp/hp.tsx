@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../page/index.css';
+import '../page/index.scss';
 import backgr from '../image/pic.png'
 import Gen_hp from "./gen_hp"
 import Genbrand from "./genbrand"

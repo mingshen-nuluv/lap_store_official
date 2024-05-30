@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Flex, Rate } from 'antd';
-import './Detail.css'
+import './Detail.scss'
 const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 
 const App: React.FC = () => {

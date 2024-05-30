@@ -1,5 +1,5 @@
 import data from "./data/home.json"
-import '../page/index.css'
+import '../page/index.scss'
 import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
 import Demo from '../page/heart_icon'
 

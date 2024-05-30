@@ -1,4 +1,4 @@
-import '../page/index.css';
+import '../page/index.scss';
 import { Spin } from "antd"
 import { Anchor, Col, Row } from 'antd';
 import { Outlet } from "react-router-dom"

@@ -1,7 +1,7 @@
 import data from "./data/acer.json"
 import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
 
-import '../page/index.css'
+import '../page/index.scss'
 function gen_acer(){
     return(
         <>

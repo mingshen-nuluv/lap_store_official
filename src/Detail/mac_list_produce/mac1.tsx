@@ -1,7 +1,5 @@
-import '../Detail.css'
+import '../Detail.scss'
 import data from './mac1.json'
-import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
-import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
 import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
 import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi_Ugreen_Type C.jpg"
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"

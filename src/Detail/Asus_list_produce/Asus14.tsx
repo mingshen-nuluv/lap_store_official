@@ -1,4 +1,3 @@
-import '../Detail.css'
 import star_icon from "/home/minh/Typescript/author/src/image/star_icon.jpg"
 import golden_type_lap from "/home/minh/Typescript/author/src/image/golden_type.jpg"
 import silver_type_lap from "/home/minh/Typescript/author/src/image/silver_type.jpg"
