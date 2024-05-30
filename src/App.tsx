@@ -40,6 +40,7 @@ import Asus12 from './Detail/Asus_list_produce/Asus12'
 import Asus13 from './Detail/Asus_list_produce/Asus13'
 import Asus14 from './Detail/Asus_list_produce/Asus14'
 
+
 import { Header } from './page/layout_all'
 import { Body } from './page/layout_header'
 import { Footer } from './page/layout_footer';

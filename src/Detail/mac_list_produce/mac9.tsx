@@ -1,5 +1,5 @@
 import '../Detail.scss'
-import data from './mac9.json'
+import data from './mac2.json'
 import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
 import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
 import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
@@ -7,6 +7,7 @@ import bw_prod2 from "/home/minh/Typescript/author/src/image/HUB_Chuyển_Đổi
 import bw_prod3 from "/home/minh/Typescript/author/src/image/Củ_sạc_Anker_PowerPort.jpg"
 import bw_prod4 from "/home/minh/Typescript/author/src/image/Cáp_USB-C to_USB-C.jpg"
 import Demo from "/home/minh/Typescript/author/src/page/basic"
+import { Image } from 'antd';
 
 
 
@@ -17,7 +18,7 @@ function Home() {
       <>
     <div>
         <div className='header_detail'>
-        <div className='headder_deltail_left'>
+          <div className='headder_deltail_left'>
           <p className='header_title'>{item.headtt}</p>
             </div>
           <div className='headder_deltail_right'>
@@ -33,9 +34,15 @@ function Home() {
       <div className='under_header_mac_air_m1'>
       <div className='video_box'>
       <iframe className="video_thumbnail_macbook_air_m1"
-            src="https://www.youtube.com/embed/m1XWHFkHgp8" title="STOP! Do NOT Buy the NEW $599 M2 Mac mini.. 🤦"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
-    
-
+              src="https://www.youtube.com/embed/HeMIZC2rkMo" 
+              title="M2 MacBook Air Review: More Than a Refresh!" 
+              allow="accelerometer; autoplay; 
+              clipboard-write; encrypted-media; 
+              gyroscope; picture-in-picture; 
+              web-share" ></iframe>
+       
+        
+        
         <div className="infor_product"> 
           <div className="info_box">
             <p className="head_text_info">Thông tin sản phẩm</p> 
@@ -59,7 +66,7 @@ function Home() {
           
           <div className="info_product_right">
           <div className="info_product_location">
-<Demo/>
+          {/* <Demo/> */}
             {/* <div className="ifpl_HN">
               <p className='ifpl_text'>Hà Nội</p>
             </div>
@@ -67,7 +74,6 @@ function Home() {
               <p className='ifpl_text'>Đống Đa</p>
             </div> */}
           </div>
-            <p className='ifpl_text_under_location'>Có <strong>3</strong> cửa hàng có sản phẩm</p>
             <div className="ifp_contact">
               <div className="ifp_contact_list_1">
                 <a className="number_contact" href="tel:02471010384">02471010384</a>
@@ -103,14 +109,14 @@ function Home() {
         
         <div className="buy_with">
           <div className="bw_prod_1">
-            <img className='img_bw_prod' src={bw_prod1} alt="" />
+            {/* <Image className='img_bw_prod' src={bw_prod1} alt="" /> */}
             <p className='text_bw_prod'>Hub Ugreen USB-C to 2 x USB-A 2.0 + USB-A ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 416.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 320.000đ</p> 
             <button className='bn_button'>Thêm ngay</button>          
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod2} alt="" />
+          {/* <Image className='img_bw_prod' src={bw_prod2} alt="" /> */}
             <p className='text_bw_prod'>HUB Chuyển Đổi Ugreen Type C 6 in 1 CM195... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 950.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 800.000đ</p> 
@@ -118,7 +124,7 @@ function Home() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod3} alt="" />
+          {/* <Image className='img_bw_prod' src={bw_prod3} alt="" /> */}
             <p className='text_bw_prod'>Củ sạc Anker PowerPort III 3 cổng 65W A2667 ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 1.150.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 700.000đ</p>  
@@ -126,7 +132,7 @@ function Home() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod4} alt="" />
+          {/* <Image className='img_bw_prod' src={bw_prod4} alt="" /> */}
             <p className='text_bw_prod'>Cáp USB-C to USB-C Anker Powerline Flow ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 350.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 240.000đ</p>  
@@ -380,7 +386,6 @@ function Home() {
               <div className='uhtb_row1_right'>{item.other_function}
               </div>
             </div>
-            
           </div>
         </div>
         

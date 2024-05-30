@@ -100,14 +100,14 @@ function mac1_gen() {
         
         <div className="buy_with">
           <div className="bw_prod_1">
-            <img className='img_bw_prod' src={bw_prod1} alt="" />
+            {/* <img className='img_bw_prod' src={bw_prod1} alt="" /> */}
             <p className='text_bw_prod'>Hub Ugreen USB-C to 2 x USB-A 2.0 + USB-A ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 416.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 320.000đ</p> 
             <button className='bn_button'>Thêm ngay</button>          
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod2} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod2} alt="" /> */}
             <p className='text_bw_prod'>HUB Chuyển Đổi Ugreen Type C 6 in 1 CM195... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 950.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 800.000đ</p> 
@@ -115,7 +115,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod3} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod3} alt="" /> */}
             <p className='text_bw_prod'>Củ sạc Anker PowerPort III 3 cổng 65W A2667 ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 1.150.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 700.000đ</p>  
@@ -123,7 +123,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod4} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod4} alt="" /> */}
             <p className='text_bw_prod'>Cáp USB-C to USB-C Anker Powerline Flow ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 350.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 240.000đ</p>  
@@ -158,7 +158,7 @@ function mac1_gen() {
                 </div>
             </div>
             <div className='type_color_product_box'>
-            <img className='img_type_lap' src={item.type_lap_2} alt="" />
+            {/* <img className='img_type_lap' src={item.type_lap_2} alt="" /> */}
                 <div className='type_color_product_box_small'>
                   <p className='text_color_in_box'>{item.text_color_in_box_2}</p>
                   <p className='price_color_in_box'>{item.price_lap_type_2}</p>
@@ -195,7 +195,7 @@ function mac1_gen() {
         </div>
         <div>
           <div className='banner_mac_air_m1'>
-            <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" />
+            {/* <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" /> */}
           </div>
         </div>
         <div className='sale_box'>
@@ -214,7 +214,7 @@ function mac1_gen() {
         </button>
 
         <div className='cart'>
-          <img className='cart_icon' src={giohang} alt="" />
+          {/* <img className='cart_icon' src={giohang} alt="" /> */}
           <p className='cart_text'>Them vao gio</p>
         </div>
         </div>

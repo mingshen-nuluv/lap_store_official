@@ -44,7 +44,7 @@ const items: TabsProps['items'] = [
         <div className='autoplay_banner'>
           {/* <img className='banner_mac_air_m1_img' src={banner_recived} alt="" /> */}
               <div className='banner_mac_air_m1_img'>
-                    <AutoPlay/>
+                    {/* <AutoPlay/> */}
               </div>
         </div>
         <button className='recive_old'>
@@ -58,7 +58,7 @@ const items: TabsProps['items'] = [
         </button>
 
         <div className='cart'>
-          <img className='cart_icon' src={giohang} alt="" />
+          {/* <img className='cart_icon' src={giohang} alt="" /> */}
           <p className='cart_text'>Them vao gio</p>
         </div>
 
@@ -80,7 +80,7 @@ const items: TabsProps['items'] = [
         <div className='footer_ant_tab'>
           <div className='head_footer_ant_tab'><p className='head_footer_ant_text'>ƯU ĐÃI THÊM</p></div>
             <div className='head_footer_ant_tab_data'>
-            <Data/>
+            {/* <Data/> */}
             </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ const items: TabsProps['items'] = [
         <div className='autoplay_banner'>
           {/* <img className='banner_mac_air_m1_img' src={banner_recived} alt="" /> */}
               <div className='banner_mac_air_m1_img'>
-                    <AutoPlay/>
+                    {/* <AutoPlay/> */}
               </div>
         </div>
         <div className='sale_box'>
@@ -123,7 +123,7 @@ const items: TabsProps['items'] = [
         </button>
 
         <div className='cart'>
-          <img className='cart_icon' src={giohang} alt="" />
+          {/* <img className='cart_icon' src={giohang} alt="" /> */}
           <p className='cart_text'>Them vao gio</p>
         </div>
         </div>

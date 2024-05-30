@@ -10,7 +10,7 @@
 ,
 {
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus2" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus2.jpg",
     "name" : "Laptop ASUS VivoBook S 14 FLIP TP3402VA-LZ025W",
     "price" : "11.490.000₫",
@@ -18,7 +18,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus3" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus3.jpg",
     "name" : "Laptop ASUS VivoBook 15 OLED A1505VA-L1114W",
     "price" : "17.590.000₫",
@@ -26,7 +26,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus4" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus4.jpg",
     "name" : "Laptop ASUS Zenbook 14 OLED UM3402YA-KM405W",
     "price" : "20.490.000₫",
@@ -34,7 +34,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus5" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus5.jpg",
     "name" : "Laptop ASUS TUF Gaming F15 FX507ZC4-HN074W",
     "price" : "19.490.000₫",
@@ -42,7 +42,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus6" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus6.jpg",
     "name" : "Laptop ASUS VivoBook Go 14 E1404FA-NK177W",
     "price" : "12.290.000₫",
@@ -50,7 +50,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus7" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus7.jpg",
     "name" : "Laptop ASUS TUF Gaming A15 FA507NU-LP131W",
     "price" : "22.990.000₫",
@@ -58,7 +58,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus8" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus8.jpg",
     "name" : "Laptop ASUS Gaming ROG Zephyrus G14 GA402NJ-L4056W",
     "price" : "30.490.000₫",
@@ -66,7 +66,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus9" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus9.jpg",
     "name" : "Laptop ASUS Zenbook 14 Oled UX3405MA-PP151W",
     "price" : "26.890.000₫",
@@ -82,7 +82,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus11" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus11.jpg",
     "name" : "Laptop ASUS TUF Gaming A15 FA507NU-LP140W",
     "price" : "21.490.000₫",
@@ -90,7 +90,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus12" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus12.jpg",
     "name" : "Laptop ASUS Vivobook 15 X1504ZA-NJ582W",
     "price" : "9.990.000₫",
@@ -98,7 +98,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus13" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus13.jpg",
     "name" : "Laptop ASUS VivoBook 15 OLED A1505VA-L1201W",
     "price" : "22.190.000₫",
@@ -106,7 +106,7 @@
 }
 ,{
     "text_in_asset" : "Giảm 19%",
-    "href" : "/Asus14" ,
+    "href" : "/Asus1" ,
     "img" : "../image/asus14.jpg",
     "name" : "Laptop ASUS TUF Gaming A15 FA506NF-HN005W",
     "price" : "16.490.000₫",

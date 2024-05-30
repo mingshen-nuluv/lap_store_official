@@ -11,7 +11,7 @@ function gen_home(){
             
             <div className="flex_box">
                     <div>
-                      <img className = "asset_pic" src={sale_img} alt=""/>
+                      {/* <img className = "asset_pic" src={sale_img} alt=""/> */}
                       <p className="text_in_asset">{item.text_in_asset}</p>
                     </div>
                       <div className="install_box">

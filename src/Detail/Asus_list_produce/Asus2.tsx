@@ -1,5 +1,5 @@
 import '../Detail.scss'
-import data from './Asus2.json'
+import data from './Asus1.json'
 import banner_mac_air_m1 from "/home/minh/Typescript/author/src/image/tragop_mac_air_m1.jpg"
 import giohang from "/home/minh/Typescript/author/src/image/gio_hang.jpg"
 import bw_prod1 from "/home/minh/Typescript/author/src/image/Hub_Ugreen_USB-C.jpg"
@@ -30,8 +30,8 @@ function mac1_gen() {
       <div className='under_header_mac_air_m1'>
       <div className='video_box'>
       <iframe className="video_thumbnail_macbook_air_m1"
-        src="https://www.youtube.com/embed/6P4s8d6ayLU" title="ASUS Vivobook S 14 Flip OLED (TP3402/TN3402) - Feature Review"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
-      
+               src="https://www.youtube.com/embed/BLNqoCMLnfM" title="Asus TUF F15 FX506HF Review | TUF With RTX 2050!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+        
         
         
         <div className="infor_product"> 
@@ -100,14 +100,14 @@ function mac1_gen() {
         
         <div className="buy_with">
           <div className="bw_prod_1">
-            <img className='img_bw_prod' src={bw_prod1} alt="" />
+            {/* <img className='img_bw_prod' src={bw_prod1} alt="" /> */}
             <p className='text_bw_prod'>Hub Ugreen USB-C to 2 x USB-A 2.0 + USB-A ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 416.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 320.000đ</p> 
             <button className='bn_button'>Thêm ngay</button>          
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod2} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod2} alt="" /> */}
             <p className='text_bw_prod'>HUB Chuyển Đổi Ugreen Type C 6 in 1 CM195... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 950.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 800.000đ</p> 
@@ -115,7 +115,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod3} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod3} alt="" /> */}
             <p className='text_bw_prod'>Củ sạc Anker PowerPort III 3 cổng 65W A2667 ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 1.150.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 700.000đ</p>  
@@ -123,7 +123,7 @@ function mac1_gen() {
 
           </div>
           <div className="bw_prod_1">
-          <img className='img_bw_prod' src={bw_prod4} alt="" />
+          {/* <img className='img_bw_prod' src={bw_prod4} alt="" /> */}
             <p className='text_bw_prod'>Cáp USB-C to USB-C Anker Powerline Flow ... </p>
             <p className='strongtext_bw_prod_up'>Giá niêm yết: 350.000đ</p>
             <p className='strongtext_bw_prod_down'>Giá mua kèm: 240.000đ</p>  
@@ -142,7 +142,10 @@ function mac1_gen() {
             <p className='version_2'>{item.version_2}</p>
             <p className='ver_2_price'>{item.ver_2_price}</p>
           </div>
-          
+          <div className='type_product_box'>
+            <p className='version_3'>{item.version_3}</p>
+            <p className='ver_3_price'>{item.version_3}</p>
+          </div>
         </div>
         <div className='under_header_rig_chose_type'>
           <p className='under_header_right_text'>Chọn màu để xem giá và chi nhánh có hàng</p>
@@ -154,7 +157,20 @@ function mac1_gen() {
                   <p className='price_color_in_box'>{item.price_lap_type_1}</p>
                 </div>
             </div>
-           
+            <div className='type_color_product_box'>
+            {/* <img className='img_type_lap' src={item.type_lap_2} alt="" /> */}
+                <div className='type_color_product_box_small'>
+                  <p className='text_color_in_box'>{item.text_color_in_box_2}</p>
+                  <p className='price_color_in_box'>{item.price_lap_type_2}</p>
+                </div>
+            </div>
+            <div className='type_color_product_box'>
+            <img className='img_type_lap' src={item.type_lap_3} alt="" />
+                <div className='type_color_product_box_small'>
+                  <p className='text_color_in_box'>{item.text_color_in_box_3}</p>
+                  <p className='price_color_in_box'>{item.price_lap_type_3}</p>
+                </div>
+            </div>
             
           </div>
           <div className='under_header_option'>
@@ -179,7 +195,7 @@ function mac1_gen() {
         </div>
         <div>
           <div className='banner_mac_air_m1'>
-            <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" />
+            {/* <img className='banner_mac_air_m1_img' src={banner_mac_air_m1} alt="" /> */}
           </div>
         </div>
         <div className='sale_box'>
@@ -198,7 +214,7 @@ function mac1_gen() {
         </button>
 
         <div className='cart'>
-          <img className='cart_icon' src={giohang} alt="" />
+          {/* <img className='cart_icon' src={giohang} alt="" /> */}
           <p className='cart_text'>Them vao gio</p>
         </div>
         </div>
@@ -361,7 +377,6 @@ function mac1_gen() {
               <div className='uhtb_row1_right'>{item.other_function}
               </div>
             </div>
-            
           </div>
         </div>
         

@@ -15,7 +15,7 @@ const contentStyle: React.CSSProperties = {
 
 const App: React.FC = () => (
   <Carousel autoplay>
-    <div>
+    {/* <div>
         <img src={banner2} alt="" />    
     </div>
     <div>
@@ -26,7 +26,7 @@ const App: React.FC = () => (
     </div>
     <div>
         <img src={banner3} alt="" />    
-    </div>
+    </div> */}
   </Carousel>
 );
 
