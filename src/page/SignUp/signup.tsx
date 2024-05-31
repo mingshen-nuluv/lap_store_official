@@ -1,18 +1,14 @@
-import React from 'react';
-import '../page/index.scss';  
-import pic_sign_up from "../image/pic_signup.jpg"
-import back_button from "../image/back_button.jpg"
-import google from "../image/google.jpg"
-import zalo from "../image/zalo.jpg"
-
-
+import React from "react";
+// import '../page/index.scss';
+// import pic_sign_up from "../image/pic_signup.jpg"
+// import back_button from "../image/back_button.jpg"
+// import google from "../image/google.jpg"
+// import zalo from "../image/zalo.jpg"
 
 function SignUp() {
-
   return (
-<>
-    
-      <div className='back_button'>
+    <>
+      {/* <div className='back_button'>
         <a href='/' >
         
         <img className='back_button_img' src={back_button} alt=''></img>
@@ -63,18 +59,8 @@ function SignUp() {
                </div>
       </div>
       
-</div>
-
-
-
-
-
-
-
-
-</>
-  )
-
-};
-export default SignUp
- 
+</div> */}
+    </>
+  );
+}
+export default SignUp;
