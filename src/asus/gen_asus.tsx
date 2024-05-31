@@ -1,6 +1,6 @@
 import data from "./data/genasus.json"
 import '../page/index.scss'
-// import sale_img from "/home/minh/Typescript/author/src/image/asset1.png"
+import sale_img from "../image/asset1.png"
 
 function gen_asus(){
     return(
@@ -10,7 +10,7 @@ function gen_asus(){
                 <div className="product_list1">
                 <div className="flex_box">
                     <div>
-                      {/* <img className = "asset_pic" src={sale_img} alt=""/> */}
+                      <img className = "asset_pic" src={sale_img} alt=""/>
                       <p className="text_in_asset">{item.text_in_asset}</p>
                     </div>
                       <div className="install_box">
