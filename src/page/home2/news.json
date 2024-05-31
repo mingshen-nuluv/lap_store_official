@@ -1,0 +1,23 @@
+[
+    {   
+        "img" : "./assets/list_new_1.jpg",
+        "content": "Cách kết nối máy tính bảng với màn hình máy tính chi tiết nhất"
+    }
+    ,
+    { "img" : "./assets/list_new_2.jpg",
+        "content": "ASUS ra mắt dòng Vivobook S 14/16 OLED mới với chip AI mạnh nhất phân khúc, giá 25.99"
+    }
+    ,
+    { "img" : "./assets/list_new_3.jpg",
+        "content": "Cách kết nối máy tính bảng với màn hình máy tính chi tiết nhất"
+    }
+    ,
+    { "img" : "./assets/list_new_4.jpg",
+        "content": "Cách kết nối máy tính bảng với màn hình máy tính chi tiết nhất"
+    }
+    ,
+    { "img" : "./assets/list_new_5.jpg",
+        "content": "Cách kết nối máy tính bảng với màn hình máy tính chi tiết nhất"
+    }
+
+]

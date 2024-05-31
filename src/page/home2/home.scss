@@ -1,0 +1,148 @@
+.header_box{
+    display:flex;
+    height: 40px;
+  }
+  .banner{
+    margin: 30px 0 0 30px;
+    text-align: center;
+    
+  }
+  .banner1{
+    margin-left: 1px;
+    border-radius: 3px;
+  
+  }
+  .shop{
+  
+    height: auto;
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+  }
+  .product_noform{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: auto;
+  
+  }
+  .product_form{
+    background-color:rgba(255, 255, 255, 0.795);
+    width: 1220px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    
+  }
+  .product_form_up_logomini{
+    width:50px;
+  }
+  .shop_list_head_text{
+    font-weight: 600;
+    color:rgba(255, 0, 0, 0.795);
+    margin: 0;
+    display:block;
+    text-align: center; 
+    font-size: 50px;
+  
+  }
+  .product_form_down{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 1300px;
+    height: auto;
+  }
+  .flex_list{
+    display: flex;
+  }
+  .product_list1{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 195px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #6d6d6e,
+    0px 0px 2px #6d6d6e,
+    0px 0px 2px #6d6d6e,
+    0px 0px 2px #6d6d6e;
+  }
+  .product_img_1:hover { 
+    transform: scale(1.1); 
+  }
+  .flex_box{
+    display: flex;
+  }
+  .asset_pic{
+    width: 83px;
+    height: 31px;
+    margin: 6px 41px 3px -19px;
+    
+  
+  }
+  .text_in_asset{
+    margin: -26px 100px 0px -7px;
+      font-size: 14px;
+      color: white;
+      margin-top: -33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 700;
+      width: 65%;
+      
+  }
+  .install_box{
+    margin: auto;
+    border: solid 1px #0c53b7;
+    border-radius: 8px;
+    font-size: 10px;
+    color: #0c53b7;
+    width: 70px;
+    height: 18px;
+  }
+  .text_in_install{
+    margin-top: 2px;
+    font-weight: 600;
+  }
+  .product_img_1{
+    transition: transform .1s;
+    height: 160px;
+    width: 163px;
+    margin: 20px 3px 0 10px;
+  }
+  .product_deltail{
+    margin-top: 14px;
+    width: 196px;
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+  .product_price{
+    display: flex;
+  }
+  .product_price_sale{
+    
+    margin: 5px 7px 0 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff3434;
+    font-weight: 800;
+    font-size: 17px;
+  
+  }
+  .product_old_price{
+    color: rgb(104, 104, 104);
+    margin: 8px  0 0 20px;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+  }
