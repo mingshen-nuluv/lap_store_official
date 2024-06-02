@@ -1,7 +1,6 @@
 import React from "react";
 import { HeartOutlined } from "@ant-design/icons";
 import { Flex, Rate } from "antd";
-import "../page/index.scss";
 
 const App: React.FC = () => (
   <Flex vertical gap="middle">

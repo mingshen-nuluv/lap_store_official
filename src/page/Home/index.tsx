@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.scss";
+import "./home.scss";
 import LapItem from "./LapItem";
 import data from "./home.json";
 import News from "./news";
@@ -11,8 +11,8 @@ const Home = () => {
         <section className="banner">
           <div className="banner_list">
             <img className="banner1" src="./assets/banner.jpg" alt=""></img>
-            <img className="banner1" src={"./assets/banner2.jpg"} alt=""></img>
-            <img className="banner1" src={"./assets/banner3.jpg"} alt=""></img>
+            <img className="banner1" src="./assets/banner2.jpg" alt=""></img>
+            <img className="banner1" src="./assets/banner3.jpg" alt=""></img>
           </div>
         </section>
 
@@ -31,6 +31,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
         <section className="descriptive_para">
           <div className="para_left">
             <div className="para_box_left">

@@ -1,14 +1,3 @@
-import { Outlet } from "react-router-dom";
-import logo_store from "../image/lap_store_fix-removebg-preview.png";
-import slogan_head1 from "../image/slogan_head1.jpg";
-import slogan_head2 from "../image/slogan_head2.jpg";
-import slogan_head3 from "../image/slogan_head3.jpg";
-import icon_news from "../image/icon.jpeg";
-import list_news1 from "../image/list_new_1.jpg";
-import list_news2 from "../image/list_new_2.jpg";
-import list_news3 from "../image/list_new_3.jpg";
-import list_news4 from "../image/list_new_4.jpg";
-import list_news5 from "../image/list_new_5.jpg";
 import pay_method_1 from "../image/payment_method1.jpg";
 import pay_method_2 from "../image/payment_method2.jpg";
 import pay_method_3 from "../image/payment_method3.jpg";
@@ -19,7 +8,7 @@ import pay_method_7 from "../image/payment_method7.jpg";
 import pay_method_8 from "../image/payment_method8.jpg";
 import pay_method_9 from "../image/payment_method9.jpg";
 import youtube_icon from "../image/youtube_icon.jpg";
-import facebook_icon from "../image/facebook_icon.jpg";
+// import facebook_icon from "../image/facebook_icon.jpg";
 import ig_icon from "../image/ig_icon.jpg";
 import tiktok_icon from "../image/tiktok_icon.jpg";
 import zalo_icon from "../image/zalo_icon.jpg";
@@ -165,7 +154,7 @@ const Footer = () => {
         <div className="footer_4">
           <p className="footer_head_text">Kết nối với CellphoneS</p>
           <img className="footer_icon" src={youtube_icon} alt="" />
-          <img className="footer_icon" src={facebook_icon} alt="" />
+          {/* <img className="footer_icon" src={facebook_icon} alt="" /> */}
           <img className="footer_icon" src={ig_icon} alt="" />
           <img className="footer_icon" src={tiktok_icon} alt="" />
           <img className="footer_icon" src={zalo_icon} alt="" />

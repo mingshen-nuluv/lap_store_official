@@ -1,18 +1,30 @@
 import logo_store from "../image/lap_store_fix-removebg-preview.png";
-import slogan_head1 from "../image/slogan_head1.jpg";
-import slogan_head2 from "../image/slogan_head2.jpg";
-import slogan_head3 from "../image/slogan_head3.jpg";
-import hc_icon from "../image/fb_icon_position.png";
 
 const Header = () => {
   return (
     <>
-      <div className="fixed_header_box">
+      <section className="fixed_header_box">
         <div className="upside_head">
-          <img className="slogan_head" src={slogan_head1} alt=""></img>
-          <img className="slogan_head" src={slogan_head2} alt=""></img>
-          <img className="slogan_head" src={slogan_head3} alt=""></img>
-          <img className="slogan_head" src={slogan_head2} alt=""></img>
+          <img
+            className="slogan_head"
+            src={"./assets/slogan_head1.jpg"}
+            alt=""
+          ></img>
+          <img
+            className="slogan_head"
+            src={"./assets/slogan_head2.jpg"}
+            alt=""
+          ></img>
+          <img
+            className="slogan_head"
+            src={"./assets/slogan_head3.jpg"}
+            alt=""
+          ></img>
+          <img
+            className="slogan_head"
+            src={"./assets/slogan_head2.jpg"}
+            alt=""
+          ></img>
         </div>
 
         <div className="under_header">
@@ -61,15 +73,20 @@ const Header = () => {
           </div>
           <div className="profile"></div>
         </div>
-      </div>
-      <div className="body-contaner">
+      </section>
+
+      <section className="body-contaner">
         <div className="body-box">
           <a
             className="help_contact"
             href="https://www.facebook.com/nhatminh.bigbro01/"
             target="_ blank"
           >
-            <img className="hc_icon" src={hc_icon} alt="" />
+            <img
+              className="hc_icon"
+              src={"./assets/fb_icon_position.png"}
+              alt=""
+            />
           </a>
           <div className="navbar">
             <div className="home">
@@ -104,7 +121,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

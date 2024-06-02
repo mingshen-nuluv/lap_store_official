@@ -234,9 +234,7 @@
   font-weight: 300;
   font-family:'Times New Roman', Times, serif;
 }
-.under-body{
-  height: auto;
-}
+
 .under-body-contaner-left{
   height: 500px;
   width: 500px;
@@ -252,67 +250,12 @@
   width: 500px;
   height: 500px;
 }
-.pic_sign_up{
-  display: block;
-  margin: 10px auto 0 auto;
-  width: 120px;
-}
-.back_button_img{
-  height: 40px;
-  margin: 10px 0px 0px 550px;
-}
-.sign_up_head_text{
-  text-align: center;
-  font-size: 25px;
-  font-weight: 600;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.option1,
-.option2,
-.option_signup{
-  padding-left: 40px;
-  display:flex;
-  cursor: pointer;
-}
-.option_signup{
-  margin: 40px 0 0 720px;
-}
-.or_line{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 10px;
-  margin: 40px auto 0 auto;
-}
-.line1{
-  margin: 8px 5px 0 7px ;
-  border-top: 2px solid #dbdbdb;
-  width: 200px;
-  height: 10px;
-}
-.line2{
-  margin: 8px 5px 0 7px ;
-  border-top: 2px solid #dbdbdb;
-  width: 200px;
-  height: 10px;
-}
-.text_line{
-  margin: 0 0 200px 0 ;
-}
-.option_signup_pic1{
-  width: 25px;
-  height: 25px;
-}
-.option_signup_pic2{
-  width: 25px;
-  height: 25px;
-}
-.text_option{
-  font-size: 19px;
-  /* font-weight: 600; */
-  margin: auto 0px auto 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
+
+
+
+
 
 .underbody-box-input-name{
   width: 500px;
@@ -330,188 +273,17 @@
   color:rgb(163, 163, 163);
   height: 25px;
 }
-.underbody-box-input-phone{
-  width: 500px;   
-  display:block;
-  margin: 30px auto;
-  font-size: 13px;   
-  color:rgb(163, 163, 163); 
-  height: 25px;
-}
-.underbody-box-input-address{
-  width: 500px;
-  display:block;
-  margin: 30px auto;
-  font-size: 13px;
-  color:rgb(163, 163, 163);
-  height: 25px;
-}
-.underbody-box-input-mail{
-  width: 500px;
-  display:block;
-  margin: 30px 0 0 0;
-  font-size: 13px;
-  color:rgb(163, 163, 163);
-  height: 25px;
-}
-.underbody-checkbox1{
- margin: 20px 0 20px 0px ;
-}
-.underbody-checkbox2{
-  margin: 20px 0 20px 0px ;
-}
-.note{
-  margin: 3px 0 0 0 ;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
-  font-style:italic;
-  color: rgb(161, 161, 161);
-}
-.underbody-box-input-signup{
-  border-radius: 5px;
-  background-color: #bb0423;
-  font-size: 16px;
-  font-weight: 600;
-  width: 100%;
-  height: 40px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 40px;
-  color:antiquewhite
-}
-.underbody-box-input-signup:hover{
-  background-color: #521111;
-}
-.under-body-contaner-right{
-  height: 500px;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-.underbody-box-input-name-signin{
-  width: 500px;
-  display:block;
-  margin: 30px auto;
-  font-size: 13px;
-  color:rgb(163, 163, 163);
-  height: 25px;
-}
-.underbody-box-input-pw-signin{
-  width: 500px;
-  display:block;
-  margin: 30px auto;
-  font-size: 13px;
-  color:rgb(163, 163, 163);
-  height: 25px;
-}
-.forgot_pass{
-  color: #acacac;
-  font-size: 15px;
-  font-style: italic;
-  text-align:right;
-}
-.forgot_pass_box{
-  text-decoration: none;
-}
-.underbody-box-input-signin{
-  border-radius: 5px;
-  background-color: #bb0423;
-  font-size: 16px;
-  font-weight: 600;
-  width: 100%;
-  height: 40px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-  color:antiquewhite 
-}
-.underbody-box-input-signin:hover{
-  background-color: #521111;
-}
-.bottom_signin{
-  display: flex;
-}
-.bottom_signup{
-  display: flex;
-}
-.bottom_text{
-  margin-left: 110px;
-}
-.chang_to_signup{
-  text-align: center;
-  margin-left: 10px;
-  color: #a92525;
-  font-weight: 900;
-  font-family: Arial, Helvetica, sans-serifs;
-}
-.profile-in{
-display:flex;
-}
-.frofile-box{
-margin: 200px 0px 0px 400px ;
-border: 2px solid #7e5f6a;
-width: 900px;
-}
-.info{
-  display:block;
-  font-size: 20px;
-  width:180px;
-  height:40px;
-  background-color: darkseagreen;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-.Shopping{
-  display:block;
-  font-size: 20px;
-  width:180px;
-  height:40px;
-  background-color: darkseagreen;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-.Sign_out{
-  display:block;
-  font-size: 20px;
-  width:180px;
-  height:40px;
-  background-color: darkseagreen;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-.text_profile{
-  height: 40px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text_profile-in{
-  height: 40px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 30px;
-  font-size:  18px;
-  color: black;
-}
+
+
+
+
 .morebox{
   width: 800px;
   border: 2px solid #7e5f6a;
   margin: 200px 0px 0px 000px ;
 
 }
-.banner{
-  margin: 30px 0 0 30px;
-  text-align: center;
-  
-}
-.banner1{
-  margin-left: 1px;
-  border-radius: 3px;
 
-}
 .backgroundimage{
   display: block;
   margin-left: auto;
@@ -521,17 +293,8 @@ width: 900px;
   
 }
 
-.overeview{
-  display:block;
-  font-size: 20px;
-  width:180px;
-  height:40px;
-  background-color: darkseagreen;
-  border-radius: 5px;
-}
-.div1{
-  display: flex;
-}
+
+
 .shop{
   
   height: auto;
@@ -1157,16 +920,4 @@ box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
 }
 .cascader_drop{
   width: 95%;
-}
-:where(.css-dev-only-do-not-override-j9bb5n).ant-rate {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: #ff0000;
-  font-size: 20px;
-  line-height: 1;
-  list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  display: inline-block;
-  outline: none;
 }
