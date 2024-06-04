@@ -1,5 +1,3 @@
-import logo_store from "../image/lap_store_fix-removebg-preview.png";
-
 const Header = () => {
   return (
     <>
@@ -32,7 +30,7 @@ const Header = () => {
             <a href="/">
               <img
                 className="logo_store"
-                src={logo_store}
+                src={"./assets/lap_store_fix-removebg-preview.png"}
                 alt=""
                 title="Trang Chủ"
               ></img>
