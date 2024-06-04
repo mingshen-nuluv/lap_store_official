@@ -1,33 +1,3 @@
-import { Outlet } from "react-router-dom";
-import logo_store from "../image/lap_store_fix-removebg-preview.png";
-import slogan_head1 from "../image/slogan_head1.jpg";
-import slogan_head2 from "../image/slogan_head2.jpg";
-import slogan_head3 from "../image/slogan_head3.jpg";
-import icon_news from "../image/icon.jpeg";
-import list_news1 from "../image/list_new_1.jpg";
-import list_news2 from "../image/list_new_2.jpg";
-import list_news3 from "../image/list_new_3.jpg";
-import list_news4 from "../image/list_new_4.jpg";
-import list_news5 from "../image/list_new_5.jpg";
-import pay_method_1 from "../image/payment_method1.jpg";
-import pay_method_2 from "../image/payment_method2.jpg";
-import pay_method_3 from "../image/payment_method3.jpg";
-import pay_method_4 from "../image/payment_method4.jpg";
-import pay_method_5 from "../image/payment_method5.jpg";
-import pay_method_6 from "../image/payment_method6.jpg";
-import pay_method_7 from "../image/payment_method7.jpg";
-import pay_method_8 from "../image/payment_method8.jpg";
-import pay_method_9 from "../image/payment_method9.jpg";
-import youtube_icon from "../image/youtube_icon.jpg";
-import facebook_icon from "../image/facebook_icon.jpg";
-import ig_icon from "../image/ig_icon.jpg";
-import tiktok_icon from "../image/tiktok_icon.jpg";
-import zalo_icon from "../image/zalo_icon.jpg";
-import dienthoaivui_icon from "../image/dienthoaivui_icon.jpg";
-import careS_icon from "../image/careS_icon.jpg";
-import Schannel_icon from "../image/Schannel_icon.jpg";
-import forum_icon from "../image/forum_icon.jpg";
-
 const Footer = () => {
   return (
     <>
@@ -56,15 +26,16 @@ const Footer = () => {
             (8h00 - 21h00)
           </p>
           <p className="footer_head_text">Phương thức thanh toán</p>
-          <img src={pay_method_1} alt="" />
-          <img src={pay_method_2} alt="" />
-          <img src={pay_method_3} alt="" />
-          <img src={pay_method_4} alt="" />
-          <img src={pay_method_5} alt="" />
-          <img src={pay_method_6} alt="" />
-          <img src={pay_method_7} alt="" />
-          <img src={pay_method_8} alt="" />
-          <img src={pay_method_9} alt="" />
+          <img src={"./assets/payment_method1.jpg"} alt="" />
+          <img src={"./assets/payment_method2.jpg"} alt="" />
+          <img src={"./assets/payment_method3.jpg"} alt="" />
+          <img src={"./assets/payment_method4.jpg"} alt="" />
+          <img src={"./assets/payment_method5.jpg"} alt="" />
+          <img src={"./assets/payment_method6.jpg"} alt="" />
+          <img src={"./assets/payment_method7.jpg"} alt="" />
+          <img src={"./assets/payment_method8.jpg"} alt="" />
+          <img src={"./assets/payment_method9.jpg"} alt="" />
+
           <p className="footer_head_text1">ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI</p>
           <p className="footer_1_text">(*)Nhận ngay voucher 10%</p>
           <p className="footer_1_text2">
@@ -164,26 +135,34 @@ const Footer = () => {
         </div>
         <div className="footer_4">
           <p className="footer_head_text">Kết nối với CellphoneS</p>
-          <img className="footer_icon" src={youtube_icon} alt="" />
-          <img className="footer_icon" src={facebook_icon} alt="" />
-          <img className="footer_icon" src={ig_icon} alt="" />
-          <img className="footer_icon" src={tiktok_icon} alt="" />
-          <img className="footer_icon" src={zalo_icon} alt="" />
+          <img
+            className="footer_icon"
+            src={"./assets/youtube_icon.jpg"}
+            alt=""
+          />
+          {/* <img className="footer_icon" src={facebook_icon} alt="" /> */}
+          <img className="footer_icon" src={"./assets/ig_icon.jpg"} alt="" />
+          <img
+            className="footer_icon"
+            src={"./assets/tiktok_icon.jpg"}
+            alt=""
+          />
+          <img className="footer_icon" src={"./assets/zalo_icon.jpg"} alt="" />
           <p>Website thành viên</p>
           <p className="footer_2_text_2_1">
             Hệ thống bảo hành sửa chữa Điện thoại - Máy tính
           </p>
-          <img src={dienthoaivui_icon} alt="" />
+          <img src={"./assets/dienthoaivui_icon.jpg"} alt="" />
           <p className="footer_2_text_2_1">Trung tâm bảo hành uỷ quyền Apple</p>
-          <img src={careS_icon} alt="" />
+          <img src={"./assets/careS_icon.jpg"} alt="" />
           <p className="footer_2_text_2_1">
             Kênh thông tin giải trí công nghệ cho giới trẻ
           </p>
-          <img src={Schannel_icon} alt="" />
+          <img src={"./assets/Schannel_icon.jpg"} alt="" />
           <p className="footer_2_text_2_1">
             Trang thông tin công nghệ mới nhất
           </p>
-          <img src={forum_icon} alt="" />
+          <img src={"./assets/forum_icon.jpg"} alt="" />
         </div>
       </div>
     </>

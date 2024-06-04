@@ -39,8 +39,9 @@ import Asus12 from "./Detail/Asus_list_produce/Asus12";
 import Asus13 from "./Detail/Asus_list_produce/Asus13";
 import Asus14 from "./Detail/Asus_list_produce/Asus14";
 
-import Home2 from "./page/home2";
+import Home from "./page/Home";
 import LapStore from "./layout/LapStore";
+import LayoutHeader from "./layout/Layout_header";
 
 function App() {
   return (
@@ -48,7 +49,14 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<LapStore />}>
-            <Route path="/" element={<Home2 />} />
+            <Route path="/" element={<Home />} />
+          </Route>
+        </Routes>
+        <Routes>
+          <Route element={<LayoutHeader />}>
+            <Route path="/signin" element={<SignIn />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/profile" element={<Profile />} />
           </Route>
         </Routes>
       </BrowserRouter>
