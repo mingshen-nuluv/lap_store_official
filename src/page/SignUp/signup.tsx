@@ -40,7 +40,7 @@ const SignUp = () => {
         <p className="text_line">hoặc</p>
         <div className="line2"></div>
       </div>
-      <div className="under-body">
+      <div className="under-body-sign-up">
         <div className="under-body-contaner-left">
           <div className="head-body-contaner"></div>
           <div className="signup-box">

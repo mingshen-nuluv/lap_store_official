@@ -1,5 +1,7 @@
-import "../SignIn/signin.scss";
 import React from "react";
+import "../SignIn/signin.scss";
+import { Divider } from 'antd';
+import Form from "./form"
 
 const SignIn = () => {
   return (
@@ -35,42 +37,15 @@ const SignIn = () => {
           <p className="text_option">Zalo</p>
         </div>
       </section>
-      <div className="or_line">
-        <div className="line1"></div>
-        <p className="text_line">hoặc</p>
-        <div className="line2"></div>
-      </div>
-      <div className="under-body">
-        <div className="under-body-contaner-right">
-          <div className="head-body-contaner"></div>
-          <div className="signin-box">
-            <input
-              className="underbody-box-input-name-signin"
-              type="text"
-              placeholder="Tên Đăng Nhập..."
-            />
-            <input
-              className="underbody-box-input-pw-signin"
-              type="text"
-              placeholder="Mật khẩu..."
-            />
-            <a href="/" className="forgot_pass_box">
-              <p className="forgot_pass">Quên mật khẩu?</p>
-            </a>
-            <input
-              className="underbody-box-input-signin"
-              type="button"
-              defaultValue="Đăng Nhập"
-            />
-          </div>
-          <div className="bottom_signin">
-            <p className="bottom_text">Bạn chưa có tài khoản?</p>
-            <a href="./signup" className="forgot_pass_box">
-              <p className="chang_to_signup">Đăng ký ngay</p>
-            </a>
-          </div>
-        </div>
-      </div>
+
+      <section className="or_line">
+         <Divider  plain> 
+         <p className="text_line">Hoặc</p>
+         </Divider>
+      </section>
+      <section className="under-body">
+        <Form/> 
+      </section>
     </>
   );
 };
