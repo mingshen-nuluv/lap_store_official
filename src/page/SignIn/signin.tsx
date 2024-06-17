@@ -6,15 +6,15 @@ import Form from "./form"
 // import Formmini from "./form_mini"
 
 
-const SignIn = (props:any) => {
+const SignIn = (props: any) => {
   // const {handleLogin} = props;
 
-  const [auth, setAuth] = useState({user: "" , token: ""})
-  const handleLogin = (username:string, password:string) => {
-// goi sang later
-// tra ve ket qua co username vs tooken - xet ket qua vao auth
+  const [auth, setAuth] = useState({ user: "", token: "" })
+  const handleLogin = (username: string, password: string) => {
+    // goi sang later
+    // tra ve ket qua co username vs tooken - xet ket qua vao auth
   }
-  
+
   return (
     <>
       <div className="back_button">
@@ -50,15 +50,15 @@ const SignIn = (props:any) => {
       </section>
 
       <section className="or_line">
-        
-         <Divider  plain> 
-         <p className="text_line">Hoặc</p>
-         </Divider>
+
+        <Divider plain>
+          <p className="text_line">Hoặc</p>
+        </Divider>
       </section>
       <section className="under-body">
-        <Form/> 
+        <Form />
       </section>
-      
+
     </>
   );
 };
