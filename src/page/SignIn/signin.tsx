@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from 'react';
 import "../SignIn/signin.scss";
 import { Divider } from 'antd';
 import Form from "./form"
 
-const SignIn = () => {
+// import Formmini from "./form_mini"
+
+
+const SignIn = (props:any) => {
+  // const {handleLogin} = props;
+
+  const [auth, setAuth] = useState({user: "" , token: ""})
+  const handleLogin = (username:string, password:string) => {
+// goi sang later
+// tra ve ket qua co username vs tooken - xet ket qua vao auth
+  }
+  
   return (
     <>
       <div className="back_button">
@@ -39,6 +50,7 @@ const SignIn = () => {
       </section>
 
       <section className="or_line">
+        
          <Divider  plain> 
          <p className="text_line">Hoặc</p>
          </Divider>
@@ -46,8 +58,12 @@ const SignIn = () => {
       <section className="under-body">
         <Form/> 
       </section>
+      
     </>
   );
 };
 
 export default SignIn;
+
+
+

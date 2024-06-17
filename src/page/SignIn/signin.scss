@@ -59,22 +59,42 @@
 }
 
 .under-body {
+  margin: 3% 0 0 30%;
   height: auto;
-  width: 80%;
 
 }
 
-:where(.css-dev-only-do-not-override-j9bb5n).ant-form {
+// :where(.css-dev-only-do-not-override-j9bb5n).ant-form {
+//   box-sizing: border-box;
+//   margin: 30px auto;
+//   color: rgba(0, 0, 0, 0.88);
+//   font-size: 14px;
+//   line-height: 1.5714285714285714;
+//   list-style: none;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+//   max-width: 900px;
+// }
+
+// :where(.css-dev-only-do-not-override-j9bb5n).ant-input-outlined {
+//   width: 600px;
+// }
+
+
+
+// :where(.css-dev-only-do-not-override-j9bb5n).ant-btn-primary {
+//   color: #fff;
+//   margin: 0 0 0 250px;
+//   background: #1677ff;
+//   box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+// }
+
+:where(.css-dev-only-do-not-override-3rel02).ant-form {
   box-sizing: border-box;
-  margin: 30px auto;
+  margin: 0;
+  padding: 0;
   color: rgba(0, 0, 0, 0.88);
   font-size: 14px;
   line-height: 1.5714285714285714;
   list-style: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  max-width: 900px;
-}
-
-:where(.css-dev-only-do-not-override-j9bb5n).ant-input-outlined {
-  width: 600px;
 }
