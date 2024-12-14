@@ -1,169 +1,194 @@
-.back_button_img{
-    height: 40px;
-    margin: 10px 0px 0px 550px;
-  }
-  .back_button_img{
-    height: 40px;
-    margin: 10px 0px 0px 550px;
-  }
-  .pic_sign_up{
-    display: block;
-    margin: 10px auto 0 auto;
-    width: 120px;
-  }
-  .sign_up_head_text{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .option1,
+.back_button_img {
+  height: 40px;
+  margin: 10px 0px 0px 550px;
+}
+
+.back_button_img {
+  height: 40px;
+  margin: 10px 0px 0px 550px;
+}
+
+.pic_sign_up {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 120px;
+}
+
+.sign_up_head_text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.option1,
 .option2,
-.option_signup{
-  display:flex;
+.option_signup {
+  display: flex;
   cursor: pointer;
-  padding : 0 10px;
+  padding: 0 10px;
 }
-.option_signup{
-justify-content: center;
+
+.option_signup {
+  justify-content: center;
 }
+
 .option_signup_pic1,
-  .option_signup_pic2{
-    width: 25px;
-    height: 25px;
-  }
-  .text_option{
-    font-size: 19px;
-    /* font-weight: 600; */
-    margin: auto 0px auto 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .or_line{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 10px;
-    margin: 40px auto 0 auto;
-  }
-  .line1{
-    margin: 8px 5px 0 7px ;
-    border-top: 2px solid #dbdbdb;
-    width: 200px;
-    height: 10px;
-  }
-  .line2{
-    margin: 8px 5px 0 7px ;
-    border-top: 2px solid #dbdbdb;
-    width: 200px;
-    height: 10px;
-  }
-  .text_line{
-    margin: 0 0 200px 0 ;
-  }
-  .under-body{
-    height: auto;
-  }
-  .under-body-contaner-left{
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  .signup-box{
-    width: 500px;
-    height: 500px;
-  }
-  .underbody-box-input-name{
-    width: 500px;
-    display:block;
-    margin: 30px auto;
-    font-size: 13px;
-    color:rgb(163, 163, 163);
-    height: 25px;
-  }
-  .underbody-box-input-pw{
-    width: 500px;
-    display:block;
-    margin: 30px 0 3px 0 ;
-    font-size: 13px;
-    color:rgb(163, 163, 163);
-    height: 25px;
-  }
-  .note{
-    margin: 3px 0 0 0 ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    font-style:italic;
-    color: rgb(161, 161, 161);
-  }
-  .underbody-box-input-phone{
-    width: 500px;   
-    display:block;
-    margin: 30px auto;
-    font-size: 13px;   
-    color:rgb(163, 163, 163); 
-    height: 25px;
-  }
-  .underbody-box-input-address{
-    width: 500px;
-    display:block;
-    margin: 30px auto;
-    font-size: 13px;
-    color:rgb(163, 163, 163);
-    height: 25px;
-  }
-  .underbody-box-input-mail{
-    width: 500px;
-    display:block;
-    margin: 30px 0 0 0;
-    font-size: 13px;
-    color:rgb(163, 163, 163);
-    height: 25px;
-  }
-  .checkbox_footer{
-display: flex;
-  }
-  .underbody_checkbox1{
-    margin: 20px 0 20px 0px ;
- 
-  }
- 
-  .underbody_checkbox2{
-    margin: 20px 0 20px 0px ;
-  }
-  .text_underbody_checkbox{
-    font-size: 14px;
-    margin: 18px 0 0 10px;
-  }
- 
-  .underbody-box-input-signup{
-    border-radius: 5px;
-    background-color: #bb0423;
-    font-size: 16px;
-    font-weight: 600;
-    width: 100%;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 40px;
-    color:antiquewhite
-  }
-  .underbody-box-input-signup:hover{
-    background-color: #521111;
-  }
-  .bottom_signup{
-    display: flex;
-  }
-  .bottom_text{
-    margin-left: 110px;
-  }
-  .forgot_pass_box{
-    text-decoration: none;
-  }
-  .chang_to_signup{
-    text-align: center;
-    margin-left: 10px;
-    color: #a92525;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serifs;
-  }
+.option_signup_pic2 {
+  width: 25px;
+  height: 25px;
+}
+
+.text_option {
+  font-size: 19px;
+  /* font-weight: 600; */
+  margin: auto 0px auto 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.or_line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10px;
+  margin: 40px auto 0 auto;
+}
+
+.line1 {
+  margin: 8px 5px 0 7px;
+  border-top: 2px solid #dbdbdb;
+  width: 200px;
+  height: 10px;
+}
+
+.line2 {
+  margin: 8px 5px 0 7px;
+  border-top: 2px solid #dbdbdb;
+  width: 200px;
+  height: 10px;
+}
+
+.under-body-sign-up {
+  height: auto;
+  width: 100%;
+}
+
+.under-body-contaner-left {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.signup-box {
+  width: 500px;
+  height: 500px;
+}
+
+.underbody-box-input-name {
+  width: 500px;
+  display: block;
+  margin: 30px auto;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  height: 25px;
+}
+
+.underbody-box-input-pw {
+  width: 500px;
+  display: block;
+  margin: 30px 0 3px 0;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  height: 25px;
+}
+
+.note {
+  margin: 3px 0 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(161, 161, 161);
+}
+
+.underbody-box-input-phone {
+  width: 500px;
+  display: block;
+  margin: 30px auto;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  height: 25px;
+}
+
+.underbody-box-input-address {
+  width: 500px;
+  display: block;
+  margin: 30px auto;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  height: 25px;
+}
+
+.underbody-box-input-mail {
+  width: 500px;
+  display: block;
+  margin: 30px 0 0 0;
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+  height: 25px;
+}
+
+.checkbox_footer {
+  display: flex;
+}
+
+.underbody_checkbox1 {
+  margin: 20px 0 20px 0px;
+
+}
+
+.underbody_checkbox2 {
+  margin: 20px 0 20px 0px;
+}
+
+.text_underbody_checkbox {
+  font-size: 14px;
+  margin: 18px 0 0 10px;
+}
+
+.underbody-box-input-signup {
+  border-radius: 5px;
+  background-color: #bb0423;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: antiquewhite
+}
+
+.underbody-box-input-signup:hover {
+  background-color: #521111;
+}
+
+.bottom_signup {
+  display: flex;
+}
+
+.bottom_text {
+  margin-left: 110px;
+}
+
+.forgot_pass_box {
+  text-decoration: none;
+}
+
+.chang_to_signup {
+  text-align: center;
+  margin-left: 10px;
+  color: #a92525;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serifs;
+}
